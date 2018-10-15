@@ -1,0 +1,125 @@
+
+BODY{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:10pt;
+	font-weight:normal;
+	color: #000000;
+	background-color: #bfbfbf;
+}
+H1{
+
+	cursor: default;
+	font-family:verdana,lucida,l"lucida sans unicode",arial;
+	font-size:14pt;
+	font-weight:bold;
+	color:rgb(0,0,0);
+} 
+
+H2{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:12pt;
+	font-weight:bold;
+	color:rgb(0,0,0);
+} 
+
+H3{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size: 11pt;
+	font-weight:bold;
+	color:rgb(0,0,0);
+}
+ 
+B{
+	font-weight:bold;
+}
+
+BODY.standard {
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:10pt;
+	font-weight:normal;
+	color: #000000;
+	background-color: #ffffff;
+
+}
+BODY.banner {
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:11pt;
+	font-weight:normal;
+	color: #ffffff;
+	background-color: #808080;
+}
+
+TD.banner{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:11pt;
+	font-weight:normal;
+	color: #ffffff;
+	background-color: #808080;
+	
+}
+INPUT.banner {
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:11pt;
+	font-weight:normal;
+} 
+SELECT.banner{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:11pt;
+	font-weight:normal;
+	color:black;
+
+} 
+TD{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:9pt;
+	font-weight:normal;
+	color:black;
+
+}
+SELECT{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:9pt;
+	font-weight:normal;
+	color:rgb(0,0,0);
+} 
+
+INPUT {
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:9pt;
+	font-weight:normal;
+
+} 
+
+TD.loadsim{
+
+	cursor: default;
+	font-family:verdana,lucida,"lucida sans unicode",arial;
+	font-size:9pt;
+	font-weight:normal;
+	color: #ffffff;
+	text-decoration: blink;
+	background-color: #000000;
+	
+}

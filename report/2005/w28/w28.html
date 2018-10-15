@@ -1,0 +1,62 @@
+
+	<HTML>
+	<HEAD>
+	<TITLE></TITLE>
+	<script language = "Javascript1.2">
+		function abrowser() {
+			var agent = navigator.userAgent.toLowerCase();
+			this.major = parseInt(navigator.appVersion,10);
+			this.minor = parseFloat(navigator.appVersion);
+			this.ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+			this.ns2 = (this.ns && (this.major == 3));
+			this.ns3 = (this.ns && (this.major == 3));
+			this.ns4 = (this.ns && (this.major >= 4));
+			this.ie   = (agent.indexOf("msie") != -1);
+			this.ie3  = (this.ie && (this.major == 2));
+			this.ie4  = (this.ie && (this.major >= 4));
+			this.op3 = (agent.indexOf("opera") != -1);
+			this.win9x = (this.ie && (agent.indexOf("windows 9") >= 0 || agent.indexOf("win 9") >= 0))	
+			this.isSupportedbyWTReports = ((this.ns || this.ie) && this.major >= 4)
+		}
+
+		var theirbrowser = new abrowser()
+		<!-- frame escape 
+		if (top.location != location) 
+			top.location.href = location.href; 
+		// -->
+		function ShowLnk(lnk, color)
+		{
+			if (theirbrowser.ns) return
+			if(lnk)
+			{
+					lnk.style.color = color
+					lnk.style.textDecoration = 'underline'
+			}
+
+		}
+		function HideLnk(lnk, color)
+		{
+			if (theirbrowser.ns) return
+			if(lnk)
+			{
+					lnk.style.color = color
+					lnk.style.textDecoration = 'none'
+			}
+		}
+	</script>
+	</head>
+
+	<frameset cols="230,*">
+		<frame name="toc"  SRC="w28_t.html">
+			
+		<frameset border=0 frameborder=0  rows="*,1">
+		  <frame marginwidth=5 marginheight=1 name=main src="w28_01_b.html">
+		  <frame name=hiddenax scrolling=no src="../../images/clrhome.gif">
+		</frameset>
+
+	</frameset>
+
+	<body>
+		;
+	</body>
+	</html>

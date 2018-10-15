@@ -1,0 +1,114 @@
+
+<html>
+<title>WebTrends MS-Word Setup</title>
+<head>
+	<title></title>
+	
+	<!-- WT_TITLE="WebTrends MS-Word Setup" -->
+	<!-- WT_DESCRIPTION="This utility will download and install (if necessary) the WebTrends MS-Word document conversion utility, and will then automatcially launch the utility to convert your HTML document into MS-Word format." -->
+	<!-- WT_INSTALL_REGISTRY="SOFTWARE\WebTrends Corporation\WebTrends Document Utility\InstallPath" -->
+	<!-- WT_VERSION_REGISTRY="SOFTWARE\WebTrends Corporation\WebTrends Document Utility\Version" -->
+	<!-- WT_DOWNLOAD_PACKAGE_URL="http://www.webtrends.com/Download/Browser/Plugins/WordUtils/v6.0/Microsoft/documentutilityinstall.exe" -->
+	<!-- WT_DOCUMENT_URL="excelw04.wtw" -->
+	<!-- WT_APPLICATION="wtm_msword.exe" -->
+	<!-- WT_DOWNLOAD_PACKAGE_VERSION="4.0" -->
+
+
+	
+<script language=javascript1.2>
+
+	function abrowser() {
+		var agent = navigator.userAgent.toLowerCase();
+		this.major = parseInt(navigator.appVersion);
+		this.minor = parseFloat(navigator.appVersion);
+		this.ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+		this.ns2 = (this.ns && (this.major == 3));
+		this.ns3 = (this.ns && (this.major == 3));
+		this.ns4 = (this.ns && (this.major >= 4));
+		this.ie   = (agent.indexOf("msie") != -1);
+		this.ie3  = (this.ie && (this.major == 2));
+		this.ie4  = (this.ie && (this.major >= 4));
+		this.op3 = (agent.indexOf("opera") != -1);
+		this.isSupportedbyWT = ((this.ns || this.ie) && this.major >= 4)
+		temp = navigator.appVersion.toLowerCase();
+		this.win = ((temp.indexOf("win") >= 0) && (temp.indexOf("X win") < 0))
+		
+	}
+	var theirbrowser	= new abrowser()
+	var ErrIEMsg		= 'Unable to run WebTrends ActiveX control:\n\n'
+	ErrIEMsg			+= '    - Please check your ActiveX control settings under the security tab in \'Internet Options\'.\n\n' 
+	ErrIEMsg			+= '    - This message may also be displayed if you selected No when the ActiveX control dialog was displayed.\n' 
+	ErrIEMsg			+= '      (Please be sure to select \'Yes\' in the ActiveX dialog when prompted.)\n' 
+	var ErrNSMsg		= 'Please check your Javascript configuration in advanced settings under \'Preferences...\'.' 
+	var platReqMsg		= "To view this report as a MS Word document, you must open this page using Microsoft Internet Explorer 4.0 or above, or Netscape Navigator from a Windows platform." 
+
+	if (theirbrowser.ie)
+		var	wtobject			= "IExplorer ActiveX Control"
+	else
+		var	wtobject			= ""
+
+	window.onerror		= errorHandler
+
+	function errorHandler()
+	{
+		// catch ax/plug options/pref disabled/off
+
+		if (theirbrowser.ie)
+				alert(ErrIEMsg)
+		if (theirbrowser.ns)
+				alert(ErrNSMsg)
+
+		return true
+	}
+
+	function browserSwitch()
+	{
+		if (!theirbrowser.win)
+		{
+			alert(platReqMsg)
+			return
+		}
+		if (theirbrowser.ie)
+				iestartactiveX();
+		if (theirbrowser.ns)
+				nsoptions()
+	}
+	function iestartactiveX()
+	{
+		var sURL				= location.href
+		if ( theirbrowser.win)
+		{
+			if (wtword && sURL)
+			{
+				if (typeof wtword.Startup != 'undefined')
+				{
+					wtword.Startup(sURL)
+				}
+			}
+		}
+	}
+	function nsoptions()
+	{
+		var newloc			= "nseinstw04.html" 
+		var wordconv_dlg	= window.open(newloc ,"wordconv_dlg" , 'width=550,height=400,resizable=yes,scrollbars=yes,menubar=yes,status=yes,location=yes')
+		if (wordconv_dlg)
+			wordconv_dlg.focus()
+	}	
+
+</script>
+
+
+
+
+</head>
+<body onLoad="javascript:browserSwitch();">
+	
+	<object id="wtword"
+		classid="CLSID:0075546E-5D3D-11D2-A3E5-0060971304D8"
+		codebase="http://www.webtrends.com/Download/Browser/Plugins/WordUtils/v6.0/Microsoft/wtx_setup.dll#version=4,0,0,0">
+	</object>
+
+
+</body>
+</html>
+

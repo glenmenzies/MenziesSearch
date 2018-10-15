@@ -1,0 +1,468 @@
+<html>
+<head>
+<meta http-equiv="Expires" content="Fri, Jun 12, 1981 08:22">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<title>Reports for Profile: 209.35.116.129 (209.35.116.129.wlp)</title>
+<script language="javascript1.2" src="images/wt_calutil.js"></script>
+<script language="javascript1.2">
+
+if ( !theirbrowser.isSupportedbyWTReports )
+{
+	with(document)
+	{
+		open()
+		var begin = "<html>"
+					+	"<head>"
+					+	"<title>WebTrends Corporation</TITLE>"
+					+	"<meta http-equiv='Pragma' content='no-cache'>"
+					+	"<meta http-equiv='Cache-Control' content='no-cache'>"
+					+	"<meta http-equiv='REFRESH' content='0;url=images/report_require.html'>"
+		write(begin)
+		close()
+	}
+}
+</script>
+
+<script language=javascript1.2>
+<!--
+// (c) copyright 2000, webtrends corp.
+
+if ( theirbrowser.isSupportedbyWTReports )
+{
+if (!window.parent)
+{
+		var parent = window
+}
+var iscalendarloaded = false
+var dem_desc	= ""
+var dem_date	= ""
+var dem_chapter = ""
+var lastrep		= ""
+var repvalue	= ""
+var reptype		= ""
+var currep		= "";
+var type		= "Daily Report"
+var value		= "01"
+var bfirst		= true
+var weekstart	= 0;
+var PreviousMonth		= "Previous month with reports"
+var NextMonth			= "Next month with reports"
+var selectMonthStatus	= "Select Month"
+var selectYearStatus	= "Select Year"
+var jsViewMSWordReport	= "View report as MS Word document."
+var jsViewMSExcelReport	= "View report as MS Excel document."
+var ProfileStats		= "Profile Statistics"
+var day0				= "S"
+var day1				= "M"
+var day2				= "T"
+var day3				= "W"
+var day4				= "T"
+var day5				= "F"
+var day6				= "S "
+var stylesheet			= "standard.css"
+var noReports			= "No reports were found."
+var WeekColumnLabel		= "Wk"
+var QAbb				= "Q"
+var bMsEnabled			= true
+var JAN = 0
+var FEB = 1
+var MAR = 2
+var APR = 3
+var MAY = 4
+var JUN = 5
+var JUL = 6
+var AUG = 7
+var SEP = 8
+var OCT = 9
+var NOV = 10
+var DEC = 11
+var Years, oldyear, oldmonth, olddate, PrevYear, PrevMonth, NextYear, NextMonth, NextMonth, HTM_LINK
+var FULLYEAR		= "000102030405060708091011"
+var TODAYBGC		= "#ffc6a5"
+var HIGHLIGHT		= ""
+var HIGHFONT		= ""
+var statusvalue		= "0"
+var statusdesc		= "No error."
+var YearMonth		= new Array    
+var ReportDay		= new Array    
+var ReportWeek		= new Array   
+var ReportMonth		= new Array   
+var ReportQuarter	= new Array   
+var ReportYear		= new Array   
+var monthNames		= "JanFebMarAprMayJunJulAugSepOctNovDec"
+var LongMonth = new Array()
+LongMonth[0] = 'January'
+LongMonth[1] = 'February'
+LongMonth[2] = 'March'
+LongMonth[3] = 'April'
+LongMonth[4] = 'May'
+LongMonth[5] = 'June'
+LongMonth[6] = 'July'
+LongMonth[7] = 'August'
+LongMonth[8] = 'September'
+LongMonth[9] = 'October'
+LongMonth[10] = 'November'
+LongMonth[11] = 'December'
+
+var YEARLY_REPORT	= "Yearly Report"
+var QUARTERLY_REPORT= "Quarterly Report"
+var WEEKLY_REPORT	= "Weekly Report"
+var MONTHLY_REPORT	= "Monthly Report"
+var DAILY_REPORT	= "Daily Report"
+var SCRIPT_HTML = "<script>\nvar weekOver	= new Image()\n" 
+	+ "var weekNotOver = new Image()\nweekOver.src	= \"images/tri_left1c.gif\"\n"
+	+ "weekNotOver.src		= \"images/tri_left.gif\"\n" 
+	+ "function imgover(gImageID) {\n"
+	+ "	if (parent.theirbrowser.ie ) {\n"
+	+ "		img  = eval(\"document._img\" + gImageID) \n"
+	+ "		if ( img) \n"
+	+ "			img.src = weekOver.src\n"
+	+ "	}\n"
+	+ "}\n"
+	+ "function imgout(gImageID) { \n"
+	+ "	if (parent.theirbrowser.ie ) {\n"
+	+ "		img  = eval(\"document._img\" + gImageID) \n"
+	+ "		if ( img) \n"
+	+ "			img.src = weekNotOver.src\n"
+	+ "	}\n"
+	+ "}\n"
+	+ "</script>\n"
+var LINKSTYLE		= "<L" + "INK REL='styl" + "esheet' TYP" + "E='text/css' H" + "REF='style_sheets/standard.css'>"
+var START_HTML		= "<html><head>" + LINKSTYLE + "</head>"
+START_HTML			+= SCRIPT_HTML
+START_HTML			+= "<body  marginheight='5' topmargin='5'><form name='X'>"
+var END_HTML		= "</form></body><html>"
+var START_CMD		= "<div id='calcommand'>"
+var END_CMD			= "</div>"
+var START_CALBODY	= "<div id='calbody'>"
+var END_CALBODY		= "</div>"
+
+Years = "20052006";
+ReportWeek["2005.w23"] = "2005/w23/w23.html";
+ReportWeek["2005.w24"] = "2005/w24/w24.html";
+ReportWeek["2005.w25"] = "2005/w25/w25.html";
+ReportWeek["2005.w26"] = "2005/w26/w26.html";
+ReportWeek["2005.w27"] = "2005/w27/w27.html";
+ReportWeek["2005.w28"] = "2005/w28/w28.html";
+ReportWeek["2005.w29"] = "2005/w29/w29.html";
+ReportWeek["2005.w30"] = "2005/w30/w30.html";
+ReportWeek["2005.w31"] = "2005/w31/w31.html";
+ReportWeek["2005.w32"] = "2005/w32/w32.html";
+ReportWeek["2005.w33"] = "2005/w33/w33.html";
+ReportWeek["2005.w34"] = "2005/w34/w34.html";
+ReportWeek["2005.w35"] = "2005/w35/w35.html";
+ReportWeek["2005.w36"] = "2005/w36/w36.html";
+ReportWeek["2005.w37"] = "2005/w37/w37.html";
+ReportWeek["2005.w38"] = "2005/w38/w38.html";
+ReportWeek["2005.w39"] = "2005/w39/w39.html";
+ReportWeek["2005.w40"] = "2005/w40/w40.html";
+ReportWeek["2005.w41"] = "2005/w41/w41.html";
+ReportWeek["2005.w42"] = "2005/w42/w42.html";
+ReportWeek["2005.w43"] = "2005/w43/w43.html";
+ReportWeek["2005.w44"] = "2005/w44/w44.html";
+ReportWeek["2005.w45"] = "2005/w45/w45.html";
+ReportWeek["2005.w46"] = "2005/w46/w46.html";
+ReportWeek["2005.w47"] = "2005/w47/w47.html";
+ReportWeek["2005.w48"] = "2005/w48/w48.html";
+ReportWeek["2005.w49"] = "2005/w49/w49.html";
+ReportWeek["2005.w50"] = "2005/w50/w50.html";
+ReportWeek["2005.w51"] = "2005/w51/w51.html";
+ReportWeek["2005.w52"] = "2005/w52/w52.html";
+ReportWeek["2005.w53"] = "2005/w53/w53.html";
+ReportWeek["2006.w01"] = "2006/w01/w01.html";
+ReportWeek["2006.w02"] = "2006/w02/w02.html";
+ReportWeek["2006.w03"] = "2006/w03/w03.html";
+ReportWeek["2006.w04"] = "2006/w04/w04.html";
+ReportWeek["2006.w05"] = "2006/w05/w05.html";
+ReportWeek["2006.w06"] = "2006/w06/w06.html";
+ReportWeek["2006.w07"] = "2006/w07/w07.html";
+ReportWeek["2006.w08"] = "2006/w08/w08.html";
+ReportWeek["2006.w09"] = "2006/w09/w09.html";
+ReportWeek["2006.w13"] = "2006/w13/w13.html";
+ReportWeek["2006.w14"] = "2006/w14/w14.html";
+ReportWeek["2006.w15"] = "2006/w15/w15.html";
+ReportWeek["2006.w16"] = "2006/w16/w16.html";
+ReportWeek["2006.w17"] = "2006/w17/w17.html";
+ReportWeek["2006.w18"] = "2006/w18/w18.html";
+ReportWeek["2006.w19"] = "2006/w19/w19.html";
+ReportWeek["2006.w20"] = "2006/w20/w20.html";
+ReportWeek["2006.w21"] = "2006/w21/w21.html";
+ReportWeek["2006.w22"] = "2006/w22/w22.html";
+
+var thelastyear, possmonth, thelastmonth	
+
+function LaunchOffice(rtype)
+{
+	if(parent.currep == "demand")
+	{
+		bns = 0
+		if(theirbrowser.ns)
+		{
+			bns = 1
+		}
+		var odDateValue = parent.dem_date
+		var URL = "/get_od_msreport.pl?"
+		if (odDateValue.indexOf("d") >=0)
+			odDateValue = odDateValue.substring(0,odDateValue.length-4)
+		URL += "profilepath=" + escape("/var/webtrends/profiles/209.35.116.129.wlp")
+		URL += "&time=/" + escape(odDateValue)
+		var c = parent.dem_chapter
+		var x = c.substring(0,c.length-2)
+		URL += "&chapter=" + escape(x.toLowerCase())
+		URL += "&reporttype=" + escape(rtype)
+		URL += "&profile=" + escape("209.35.116.129.wlp")
+		URL += "&broi=" + escape("0")
+		URL += "&bcluster=" + escape("0")
+		URL += "&contentfile=" + escape("EnglishCompleteStandard.wct")
+		URL += "&stylesheet=" + escape(stylesheet)
+		URL += "&helptype=static"
+		URL += "&bns=" + escape(bns)
+		URL += "&reportdesc=" + escape(parent.dem_desc)
+		parent.frames.main.location.href = URL
+	}
+	else
+	{
+		if(rtype =="word")
+			parent.ViewAsWord()
+		else
+			parent.ViewAsExcel()
+	}
+}
+
+
+function SetObj(replink,reportdesc,reptype,repvalue)
+{
+	parent.reptype		= reptype
+	parent.dem_desc	= reportdesc
+	parent.repvalue	= repvalue
+	parent.dem_date	= replink
+	Start_OnDemand(true)
+	return
+}
+function Start_OnDemand(bDrawCalendar)
+{
+	if (!parent.iscalendarloaded) return
+
+	var bns, bselectfirst
+	parent.currep	= "demand"
+
+	if(theirbrowser.ns)	{
+		bns = 1
+	} else {
+		bns = 0
+	}
+	
+	if(parent.dem_chapter == "") {
+		bselectfirst = 1
+	} else {
+		bselectfirst = 0
+	}
+
+	if( lastrep != "demand" || bselectfirst )
+	{
+		parent.frames.toc.location.href = "/get_od_toc.pl?" 
+			+ "contentfile=" + escape("EnglishCompleteStandard.wct")
+			+ "&stylesheet=" + escape(stylesheet)
+			+ "&profile=" + escape("209.35.116.129.wlp")
+			+ "&bns=" + bns
+			+ "&broi=" + escape("0")
+			+ "&bcluster=" + escape("0")
+			+ "&bselectfirst=1"
+	}
+
+	if (bDrawCalendar)
+	{
+		if (parent.oldyear)
+		{
+			BuildReportCalendar(parent.oldyear, parent.oldmonth, parent.olddate, parent.reptype, parent.repvalue )
+		}
+	}
+
+	if ( ! bselectfirst) 
+	{
+		var odDateValue = parent.dem_date
+		var URL			= "/start_od_report.pl?load=1&"
+		if ( odDateValue.indexOf("d") >=0 ) {
+			odDateValue	=odDateValue.substring(0,odDateValue.length-4)
+		}
+		URL += "profilepath=" + escape("/var/webtrends/profiles/209.35.116.129.wlp")
+		URL += "&time=/" + escape(odDateValue)
+		var c = parent.dem_chapter
+		var x = c.substring(0,c.length-2)
+		URL += "&chapter=" + escape(x.toLowerCase())
+		URL += "&reporttype=html"
+		URL += "&helptype=static"
+		URL += "&bns=" + bns
+		URL += "&reportdesc=" + escape(parent.dem_desc)
+		URL += "&contentfile=" + escape("EnglishCompleteStandard.wct")
+		URL += "&profile=" + escape("209.35.116.129.wlp")
+		URL += "&stylesheet=" + escape(stylesheet)
+		URL += "&broi=" + escape("0")
+		URL += "&bcluster=" + escape("0")
+		WriteMsg(bns)
+		parent.frames.main.location.href	= URL
+	}
+	lastrep							= "demand"
+}
+
+function WriteMsg(isNav)
+{
+	var sLoading = "<HTML>\n"
+		+ "<HEAD>\n"
+		+ '<LI' + 'NK REL="styl' + 'esheet" TYPE="te' + 'xt/css" HREF="/reports/209.35.116.129.wlp/style_sheets/' + parent.stylesheet + '">\n'
+		+ "</HEAD>\n"
+		+ "<BODY>\n"
+		+ "<CENTER>\n"
+		+ "<TABLE WIDTH=350 HEIGHT=450>\n"
+		+ "<TR>\n"
+		+ "	<TD>\n"
+		+ "		<TABLE WIDTH=100% HEIGHT=300>\n"
+		+ "		</TABLE>\n"
+		+ "		<TABLE WIDTH=100% BORDER=0 CELLPADDING=2 CELLSPACING=0>\n"
+		+ "		<TR>\n"
+		+ "			<TD class='chapterheader'>\n"
+		+ "				<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0>\n"
+		+ "				<TR>\n"
+		+ "					<TD class='chapterheader'>\n"
+		+ "						&nbsp;<b>WebTrends Enterprise Reporting Server</b>\n"
+		+ "					</TD>\n"
+		+ "				</TR>\n"
+		+ "				</TABLE>\n"
+		+ "				<TABLE WIDTH=100% HEIGHT=85 BORDER=0 CELLPADDING=2 CELLSPACING=0 BGCOLOR=#ffffff>\n"
+		+ "				<TR>\n"
+		+ "					<TD ALIGN=CENTER VALIGN=TOP>"
+
+		if (!isNav)
+			sLoading += "<IMG SRC='/images/loadingspotlight.gif'>\n"
+		else
+			sLoading += "<BR>"
+		
+		sLoading += "<BR><FONT COLOR=#000000><b>Loading Report ...</b></FONT>\n"
+		+ "					</TD>\n"
+		+ "				</TR>\n"
+		+ "				</TABLE>\n"
+		+ "			</TD>\n"
+		+ "		</TR>\n"
+		+ "		</TABLE>\n"
+		+ "	</TD>\n"
+		+ "</TR>\n"
+		+ "</TABLE>\n"
+		+ "</CENTER>\n"
+		+ "</BODY>\n"
+		+ "</HTML>\n"
+
+	with (parent.frames.main.document)
+	{	
+		open()
+		writeln( sLoading )
+		close()
+	}
+}
+
+function show_status()
+{
+	with(parent.frames.nav.document)
+	{
+		open()
+		writeln("<html><head></head><body>")
+		writeln("<table border=0 cellpadding=0 cellspacing=0 width=100%>")
+		writeln("<tr valign=top>")
+		writeln("	<td valign=top align=left>")	
+		writeln("      <b>")
+		if (statusvalue == "0")
+		{
+			//writeln("Profile is active.</font></td></tr>")
+		}
+		else
+		{
+			//writeln("Profile is not initialized: " + statusdesc + "<br>For more detailed information about this status, please see the profile's status file.")
+		}
+		writeln("	</b></td>")
+		writeln("</tr>")
+		writeln("</table></body></html>")
+		close()
+	}
+}
+
+
+
+var tocPage		= "index_t.html"
+var sumPage		= "index_s.html"
+var nsScroll	= ""
+if (theirbrowser.ns)
+{
+	nsScroll	= "scrolling=yes"
+}
+document.open()
+document.write("<frameset cols='255,100%' onLoad='ConvertWeeksToMonths(); ConvertMonthsToMonths(); ConvertQuartersToMonths(); ConvertYearsToMonths()' onResize='my_resize()'>")
+document.write("	<frameset rows='210,100%'>")
+document.write("		<frame scrolling=auto marginwidth='2' leftmargin='2' marginheight=2 name=month src=\"index_c.html\">")
+document.write("		<frame marginwidth='2' marginheight='2' name=toc " + nsScroll + " src=\"index_t.html\">")
+document.write("	</frameset>")
+document.write("	<frameset rows='100%,*'>")
+document.write("		<frame marginwidth='5' marginheight='1'  name=main src='index_s.html'>")	
+document.write("		<frameset rows='*,*'>")
+document.write("			<frame name=hiddenax scrolling=no src='images/blank.html' >")
+document.write("			<frame name=nav scrolling=auto src='images/blank.html' >")
+document.write("		</frameset>")
+document.write("	</frameset>")
+document.write("</frameset>")
+document.close()
+}
+// -->
+</script>
+</head>
+<body>
+	<noscript>
+	<br>
+	<br>
+		<table border=0>
+			<tr><td colspan=3><b>WebTrends</b></td></tr>
+			<tr><td colspan=3><b>&nbsp;</b></td></tr>
+			<tr>
+				<td colspan=2>
+					<font size=2>
+					<b>This report requires either </b><br><br><a href="http://www.microsoft.com">Microsoft Internet Explorer version 4.0 or higher</a> <b> OR </b>
+					<a href="http://www.netscape.com">Netscape version 4.04 or higher.</a>
+					</font>
+				</td>
+			</tr>
+			<tr>
+				<td width=5%>
+					&nbsp;
+				</td>
+			</tr>
+			<tr valign=top>
+				<td width=5%>
+					<font size=2>
+					<font color=red><b>Note:</b></font>
+					</font>
+				</td>
+				<td width=100%>
+					<font size=2 color=red>Please be sure that your browser has both Javascript and Java enabled.<br>
+					<ul>
+					 <li>In Netscape:  "Preferences..." dialog
+							<ul>
+								<li>Advanced | <b> Enable Javascript and Enable Java</b> </li>
+							</ul>
+					 </li>
+					 <br>
+					 <li>In Internet Explorer:   "Internet Options" dialog.
+							<ul>
+								<li>Security
+									<ul>
+										<li> Settings | <b>Enable Active scripting and Scripting of Java applets</b><li>
+									</ul>
+								</li>
+							</ul>
+					 </li>
+					</ul>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</noscript> 
+	
+</body>
+</html>

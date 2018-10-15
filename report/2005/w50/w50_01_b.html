@@ -1,0 +1,464 @@
+<html>
+<!-- wtrs -->
+<!-- Weekly Report -- Report Range: 12/04/2005 00:00:00 - 12/10/2005 23:59:59 page 1 -->
+<head>
+<title>WebTrends Summary Report</title>
+<script language=javascript1.2>
+	var gCurrentType = new Array
+
+	if (top.frames.month)
+	{
+		top.frames.month.bHelp = ''
+	}
+	function changeGraphtype(pApplet,GraphType)
+	{
+			pApplet.pcscript( 'main.execute(' + GraphType + ')')
+	}
+</script>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../../style_sheets/standard.css">
+</head>
+<body>
+<center>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td align='left'><a href='http://www.webtrends.com' target=_new><img alt='www.webtrends.com' src='../../images/webtlogo.gif' border=0></a></td>
+	<td align='right'></td>
+</tr>
+</table>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td valign='top' align='left'><b>209.35.116.129</b></td>
+</tr>
+<tr>
+	<td valign='top' align='left'>http://209.35.116.129</td>
+</tr>
+<tr>
+	<td colspan=4 valign='top' align='left'>
+	<hr noshade color='#000000'>
+	</td>
+</tr>
+</table>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td valign='top' align='left'>Week 50 of 2005</td>
+	<td valign='top' align='right'>12/04/2005 00:00:00 - 12/10/2005 23:59:59</td>
+</tr>
+<tr>
+	<td valign='top' align='left'>&nbsp;</td>
+</tr>
+</table>
+</center>
+		<!--	chapterheader:  General Statistics  -->
+		<center>
+		<table cellpadding='2' cellspacing='0' border=0 width='600'>
+		<tr >
+			<td height="24" class='chapterheader' width='100%' align='left' >
+				&nbsp;<b>General Statistics</b>
+			</td>
+			<td height="24" class='chapterheader' align='right'>
+				<a href='#helpcardgeneralstatstc' class='chapterheader'>Help</a>
+			</td>
+			<td height="24" class='chapterheader' align='right'>
+				<a href='#helpcardgeneralstatstc'><img src='../../images/help_button.gif' alt='How do I use this information?' border=0 align=absmiddle></a>
+			</td>
+		</tr>
+		</table>
+		</center>
+
+<!-- -----------------Chapter Description:------------- -->
+<center><table border=0 cellpadding=0 cellspacing=0 width='600'><tr>
+<td class='chapterdesc'>
+The Visits Over Time graph identifies the overall count of visits to your Web site. The General Statistics table provides statistics of the total activity for this Web site during the designated time frame. 
+</td>
+</tr></table></center><br>
+<table border=0 align='center' width='600' cellpadding='0' cellspacing='0'>
+<tr><td align='right'>
+<IMG align=top SRC= "../../images/mgrftabs3_1.gif" BORDER=0 USEMAP="#MAPTopBandwidth_VTGraph1"><img src='../../images/white.gif' width='1' height='1'>
+<MAP NAME="MAPTopBandwidth_VTGraph1">
+<AREA SHAPE="rect" alt="View as Vertical Bar Graph"    COORDS="0,  0, 37, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopBandwidth_VTGraph1,1, 'MULTIBAR', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Vertical Bar Graph';return true;">
+<AREA SHAPE="rect" alt="View as Stacked Graph"    COORDS="38, 0, 74, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopBandwidth_VTGraph1,2, 'MULTISTACKED', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Stacked Graph';return true;">
+<AREA SHAPE="rect" alt="View as Line Graph"    COORDS="76, 0,113, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopBandwidth_VTGraph1,3, 'MULTILINE', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Line Graph';return true;">
+<AREA SHAPE="rect" alt="View as Area Graph"    COORDS="114,0,151, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopBandwidth_VTGraph1,4, 'MULTIAREA', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Area Graph';return true;">
+</MAP>
+
+</td></tr>
+</table>
+
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr >
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						<table border=0 cellspacing=0 cellpadding=0 width='100%'>
+<tr >
+<td VALIGN=TOP ALIGN=CENTER BGCOLOR=FFFFFF><nobr>
+
+<!-- ----------------- Graph: (Applet) multi ------------- -->
+
+<applet codebase="../../CordaJava" code="PopChart.class" archive="PopChartA.jar" width="590" height="230" name="TopBandwidth_VTGraph1">
+    <param name=bgcolor value="FFFFFF">
+    <param name=file value="/apfiles3.1/multibarlegend">
+    <param name=pcscript value="main.beginStore(0)
+Graph.categories(Visits)
+Graph.Series(Sun,6;Mon,5;Tue,10;Wed,7;Thu,3;Fri,9;Sat,11)
+Title.setText(Visits Over Time)
+main.endStore()
+main.execute(0)
+main.beginstore(1)
+main.newapfile(/apfiles3.1/multibarlegend)
+main.execute(0)
+main.endstore()
+main.beginstore(2)
+main.newapfile(/apfiles3.1/multistackedlegend)
+main.execute(0)
+main.endstore()
+main.beginstore(3)
+main.newapfile(/apfiles3.1/multilinelegend)
+main.execute(0)
+main.endstore()
+main.beginstore(4)
+main.newapfile(/apfiles3.1/multiarealegend)
+main.execute(0)
+main.endstore()
+">
+</applet>
+</nobr></td>
+</tr>
+</table>
+<script language='javascript'>gCurrentType[''] = 'MULTIBAR';</script>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<br>
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr >
+					<td width=5 class='datatableheader'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatableheader' colspan=2 valign=top >
+						<B><!-- WT_SHADE1 -->General Statistics</B>
+					</td>
+					<td width=5 class='datatableheader'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Successful Hits For Entire Site
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						890
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Average Hits Per Day
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						127
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Home Page Hits
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						45
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatableheader'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatableheader' colspan=2 valign=top >
+						<B><!-- WT_SHADE1 -->Pages</B>
+					</td>
+					<td width=5 class='datatableheader'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Page Views (Impressions)
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						154
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Average Per Day
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						22
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Document Views
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						153
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatableheader'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatableheader' colspan=2 valign=top >
+						<B><!-- WT_SHADE1 -->Visits</B>
+					</td>
+					<td width=5 class='datatableheader'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Visits
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						51
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Average Per Day
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						7
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Average Visit Length
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						00:02:15
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						International Visits
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						0%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Visits of Unknown Origin
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						100%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Visits from the United States
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						0%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatableheader'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatableheader' colspan=2 valign=top >
+						<B><!-- WT_SHADE1 -->Visitors</B>
+					</td>
+					<td width=5 class='datatableheader'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Unique Visitors
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						40
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Visitors Who Visited Once
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						33
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=4 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Visitors Who Visited More Than Once
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						7
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr >
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<br><a name='helpcardgeneralstatstc'>
+
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr bgColor ='#a1a1a1' >
+					<td align ='LEFT' valign ='MIDDLE' class='datatableheader'  width='500'>
+						General Statistics - Help Card
+					</td>
+					<td align ='RIGHT' valign ='MIDDLE' class='datatableheader'  width='86'>
+						<a href='#TopOfPage'><img src='../../images/topchapt.gif' alt='Start of Chapter' border=0></a>
+					</td>
+				</tr>
+				<tr >
+					<td align ='LEFT' valign ='TOP' class='datatablenormal' colspan=2 >
+								<P class='helpcard'>
+			<img src="../../images/helpcardq1.gif" border=0>&nbsp;The Statistics table shows the date and time the report was generated. All dates and times refer to the location of the system running the analysis.<BR><B>Successful Hits For Entire Site -</B> A count of all successful hits including HTML pages, pictures, forms, scripts, and downloaded files.  
+(Visit http://www.webtrends.com/support/hits_views_sessions.htm for a detailed explanation of pages and visits.)<BR>
+<B>Average Hits Per Day -</B> Number of Successful Hits divided by the total number of days in the log file.<BR>
+<B>Home Page Hits-</B> Number of times the home page, as defined in the profile, was visited. A count of hits that had a "success" status code.<BR>
+<BR>
+
+<B>Page Views (Impressions) -</B> Total hits to pages which are defined as documents or forms by the Reporting Server.  Supporting graphics on pages are not counted. To redefine how forms and documents are counted by the Reporting Server, modify the Document Extensions and File Types settings.<BR>
+<B>Average Per Day -</B> Number of page views (impressions) divided by the total number of days in the log file.<BR>
+<B>Document Views - </B> Total hits to pages that are considered documents--not forms--as defined by the File Types tab in the Options window.<BR>
+<BR>
+
+<B>Visits -</B>A count of the visits to your site.  The length of a visit is defined in the General tab in the Options window.<BR>
+<B>Average Per Day -</B>Number of visits divided by the total number of days in the log file.<BR>
+<B>Average Visit Length -</B> Average of all visits in the log.<BR>
+<B>International Visits -</B> Percentage of international sessions as logged in the User Domain field. This setting is modified via the Domains tab in the Options window.<BR>
+<B>Visits of Unknown Origin -</B>Percentage of "unknown origin" sessions as logged in the User Domain field. This setting is modified via the Domains tab in the Options window.<BR>
+<B>Visits from the United States-</B>Percentage of United States visits as logged in the User Domain field. This setting is modified via the Domains tab in the Options window.<BR>
+<BR>
+
+<B>Unique Visitors -</B> A count using the visitor's IP address, domain name, or cookie.  Persistant cookies are defined in Cookies tab in the Options window. Cookies give the most accurate count.<BR>
+<B>Visitors Who Visited Once -</B> The number of visitors who visited the site exactly once during the reporting period.<BR>
+<B>Visitors Who Visited More Than Once -</B> The number of visitors who visited the site more than once during the reporting period.<BR>
+			<br>
+			<br>
+			<img src="../../images/helpcardq2.gif" border=0>&nbsp;The General Statstics table gives a general overview of the Web site's performance and visitor behavior, helping you quickly assess areas to address. It can determine which report chapters to focus on for valuable site enhancement statistics.
+		</P>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<BR>
+<!-- ----------------- webtrends trailer ------------- -->
+<center>
+<table cellpadding='3' cellspacing='0' border=0 width='600'>
+<tr>
+	<td width='100%' align='left'>
+	<hr noshade color='#000000'>
+	</td>
+</tr>
+<tr >
+	<td width='100%' align='center' >
+		&nbsp;This report was generated by <a href="http://www.webtrends.com" target=_new>WebTrends</a> Sunday January 1, 2006 - 07:34:28
+	</td>
+</tr>
+<tr >
+	<td width='100%' align='center' >
+	
+	</td>
+</tr>
+</table>
+</center>
+<BR><BR></BODY>
+</HTML>

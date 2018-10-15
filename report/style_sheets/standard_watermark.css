@@ -1,0 +1,230 @@
+body
+{
+    background-color: #ffffff;
+    background-image: url('/images/Watermrk.gif');
+	color: black;
+    font-family: Arial;
+	font-face:arial;
+    font-size: 8pt
+}
+table.calendarblankbg
+{
+    background-color:#ffffff;
+}
+table
+{
+    color: black;
+    font-family: Arial;
+	font-face:arial;
+    font-size: 8pt
+}
+td
+{
+    color: black;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 8pt;
+}
+.chapterheader
+{
+    color: white;
+    background-color:#003399;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 8pt;
+}
+a.chapterheader:link				{text-decoration:none;color:white;font-family:arial;font-weight:normal;}
+a.chapterheader:visited				{text-decoration:none;color:white;font-family:arial;font-weight:normal;}
+a.chapterheader:active				{text-decoration:none;color:white;font-family:arial;font-weight:normal;}
+a.chapterheader:hover				{text-decoration:none;color:white;font-family:arial;font-weight:normal;}
+
+.chapterdesc
+{
+    color: black;
+	font-face:arial;
+    font-family:Arial;
+    font-size: 8pt;
+}
+.datatabletitle
+{
+    background-color:#e4e4e4;
+    font-weight:bold;
+    color: black;
+	font-face:arial;
+    font-family:Arial;
+    font-size: 8pt;
+}
+.datatableheader
+{
+    background-color:#e1e1e1;
+    font-weight:bold;
+	color: black;
+	font-face:arial;
+    font-family:Arial;
+    font-size: 8pt;
+}
+.datatabletrailer
+{
+    background-color:#f1f1f1;
+    font-weight:bold;
+	color: black;
+ 	font-face:arial;
+	font-family:Arial;
+    font-size: 8pt;
+}
+.datatablenormal
+{
+    background-color:#ffffff;
+    color: black;
+	font-face:arial;
+    font-family:Arial;
+    font-size: 8pt;
+}
+.datatablenormalbold
+{
+    background-color:#ffffff;
+    font-weight:bold;
+    color: black;
+    font-family:Arial;
+    font-size: 8pt;
+}
+.datatableodd
+{
+    background-color:#ffffff;
+    color: black;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 8pt;
+}
+.datatableeven
+{
+    background-color:#f5f5f5;
+    color: black;
+	font-face:arial;
+    font-family:Arial;
+    font-size: 8pt;
+}
+
+.datatabletotal
+{
+    background-color:#fefefe;
+    color: black;
+    font-weight:bold;
+	font-family:Arial;
+	font-face:arial;
+    font-size: 8pt;
+}
+.datatablesubtotal
+{
+    background-color:#fefefe;
+    font-weight:bold;
+	color: black;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 8pt;
+}
+a.trailerlink
+{
+    color: #fdcb03;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 9pt;
+}
+a.trailerlink:hover
+{
+    color: #fdcb03;
+    font-weight: bold;
+	text-decoration: none;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 9pt;
+}
+a.trailerlink:active
+{
+    color: #fdcb03;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 9pt;
+}
+a.trailerlink:link
+{
+    color: #fdcb03;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 9pt;
+}
+a.trailerlink:visited
+{
+    color: #fdcb03;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial;
+	font-face:arial;
+    font-size: 9pt;
+}
+body.calendar
+{
+    background-color:#ffffff;
+}
+table.calendarbg
+{
+    background-color:#a1a1a1;
+}
+.calendarheader
+{
+    background-color:#e4e4e4;
+}
+.calendardays
+{
+    background-color:#ffffff;
+}
+.calendarpadddays
+{
+    color:#ffffff;
+}
+.tocsection
+{
+	font-size:8pt; 
+	font-face:arial;
+	font-family:arial;
+	font-weight:bold; 
+	color:#000000; 
+}
+.tocchapter
+{
+	font-size:8pt; 
+	font-face:arial;
+	font-family:arial;
+	font-weight:normal; 
+	color:#000000; 
+}
+a:link					{text-decoration:none;color:blue;font-family:arial;font-weight:normal;}
+a:visited				{text-decoration:none;color:blue;font-family:arial;font-weight:normal;}
+a:active				{text-decoration:none;color:blue;font-family:arial;font-weight:normal;}
+a:hover					{text-decoration:none;color:blue;font-family:arial;font-weight:normal;}
+select					{font-size:8pt; font-face:arial;font-weight:normal;};
+A.ondemand:hover		{text-decoration:none;color:green;font-family:arial;font-weight:normal;};
+A.ondemand				{text-decoration:none;color:blue;font-family:arial;font-weight:normal;};
+A.selondemand			{text-decoration:none;background-Color:#fdcb03;color:blue;font-family:arial;font-weight:normal;};
+A.selondemand:hover		{text-decoration:none;background-Color:#fdcb03;color:red;font-family:arial;font-weight:normal;};
+A.static:hover			{text-decoration:none;color:green;font-family:arial;font-weight:normal;};
+A.static				{text-decoration:none;color:blue;font-family:arial;font-weight:normal;};
+A.selstatic				{text-decoration:none;background-Color:#fdcb03;color:blue;font-family:arial;font-weight:normal;};
+A.selstatic:hover		{text-decoration:none;background-Color:#fdcb03;color:red;font-family:arial;font-weight:normal;};
+a.tocsection:visited	{color:#000000;text-decoration:none;font-weight:normal;}
+a.tocsection:link		{color:#000000;text-decoration:none;font-weight:normal;}
+a.tocsection:active		{color:red;text-decoration:none;font-weight:normal;}
+a.tocsection:visited	{color:#000000;text-decoration:none;font-weight:normal;}
+a.tocsection:hover		{color:#003399;text-decoration:none;font-weight:normal;}
+a.tocchapter:visited	{color:blue;text-decoration:none;font-weight:normal;}
+a.tocchapter:link		{color:blue;text-decoration:none;font-weight:normal;}
+a.tocchapter:active		{color:red;text-decoration:none;font-weight:normal;}
+a.tocchapter:visited	{color:blue;text-decoration:none;font-weight:normal;}
+a.tocchapter:hover		{color:#4169e1;text-decoration:none;font-weight:normal;}
+p.helpcard				{margin:15;}

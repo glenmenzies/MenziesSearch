@@ -1,0 +1,403 @@
+<html>
+<!-- wtrs -->
+<!-- Weekly Report -- Report Range: 10/16/2005 00:00:00 - 10/22/2005 23:59:59 page 51 -->
+<head>
+<title>WebTrends Summary Report</title>
+<script language=javascript1.2>
+	var gCurrentType = new Array
+
+	if (top.frames.month)
+	{
+		top.frames.month.bHelp = ''
+	}
+	function changeGraphtype(pApplet,GraphType)
+	{
+			pApplet.pcscript( 'main.execute(' + GraphType + ')')
+	}
+</script>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../../style_sheets/standard.css">
+</head>
+<body>
+<center>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td align='left'><a href='http://www.webtrends.com' target=_new><img alt='www.webtrends.com' src='../../images/webtlogo.gif' border=0></a></td>
+	<td align='right'></td>
+</tr>
+</table>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td valign='top' align='left'><b>209.35.116.129</b></td>
+</tr>
+<tr>
+	<td valign='top' align='left'>http://209.35.116.129</td>
+</tr>
+<tr>
+	<td colspan=4 valign='top' align='left'>
+	<hr noshade color='#000000'>
+	</td>
+</tr>
+</table>
+<table width='600' border=0 cellpadding=1 cellspacing=1>
+<tr>
+	<td valign='top' align='left'>Week 43 of 2005</td>
+	<td valign='top' align='right'>10/16/2005 00:00:00 - 10/22/2005 23:59:59</td>
+</tr>
+<tr>
+	<td valign='top' align='left'>&nbsp;</td>
+</tr>
+</table>
+</center>
+		<!--	chapterheader:  Hits by Day of the Week  -->
+		<center>
+		<table cellpadding='2' cellspacing='0' border=0 width='600'>
+		<tr >
+			<td height="24" class='chapterheader' width='100%' align='left' >
+				&nbsp;<b>Hits by Day of the Week</b>
+			</td>
+			<td height="24" class='chapterheader' align='right'>
+				<a href='#helpcardtopweekdays_htc' class='chapterheader'>Help</a>
+			</td>
+			<td height="24" class='chapterheader' align='right'>
+				<a href='#helpcardtopweekdays_htc'><img src='../../images/help_button.gif' alt='How do I use this information?' border=0 align=absmiddle></a>
+			</td>
+		</tr>
+		</table>
+		</center>
+
+<!-- -----------------Chapter Description:------------- -->
+<center><table border=0 cellpadding=0 cellspacing=0 width='600'><tr>
+<td class='chapterdesc'>
+This section shows the activity for each day of the week within the reporting period.  Unsuccessful hits are not included. 
+</td>
+</tr></table></center><br>
+<table border=0 align='center' width='600' cellpadding='0' cellspacing='0'>
+<tr><td align='right'>
+<IMG align=top SRC= "../../images/mgrftabs3_1.gif" BORDER=0 USEMAP="#MAPTopWeekdays_HGraph1"><img src='../../images/white.gif' width='1' height='1'>
+<MAP NAME="MAPTopWeekdays_HGraph1">
+<AREA SHAPE="rect" alt="View as Vertical Bar Graph"    COORDS="0,  0, 37, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopWeekdays_HGraph1,1, 'MULTIBAR', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Vertical Bar Graph';return true;">
+<AREA SHAPE="rect" alt="View as Stacked Graph"    COORDS="38, 0, 74, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopWeekdays_HGraph1,2, 'MULTISTACKED', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Stacked Graph';return true;">
+<AREA SHAPE="rect" alt="View as Line Graph"    COORDS="76, 0,113, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopWeekdays_HGraph1,3, 'MULTILINE', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Line Graph';return true;">
+<AREA SHAPE="rect" alt="View as Area Graph"    COORDS="114,0,151, 22"  HREF="JavaScript:changeGraphtype(document.applets.TopWeekdays_HGraph1,4, 'MULTIAREA', '')"    onMouseOut="status='';return true;" onMouseOver="status='View as Area Graph';return true;">
+</MAP>
+
+</td></tr>
+</table>
+
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr >
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal' colspan=2 >
+						<table border=0 cellspacing=0 cellpadding=0 width='100%'>
+<tr >
+<td VALIGN=TOP ALIGN=CENTER BGCOLOR=FFFFFF><nobr>
+
+<!-- ----------------- Graph: (Applet) multi ------------- -->
+
+<applet codebase="../../CordaJava" code="PopChart.class" archive="PopChartA.jar" width="590" height="230" name="TopWeekdays_HGraph1">
+    <param name=bgcolor value="FFFFFF">
+    <param name=file value="/apfiles3.1/multibarlegend">
+    <param name=pcscript value="main.beginStore(0)
+Graph.categories(Hits)
+Graph.Series(Sun,6;Mon,520;Tue,408;Wed,397;Thu,169;Fri,194;Sat,74)
+Title.setText(Hits by Day of the Week)
+main.endStore()
+main.execute(0)
+main.beginstore(1)
+main.newapfile(/apfiles3.1/multibarlegend)
+main.execute(0)
+main.endstore()
+main.beginstore(2)
+main.newapfile(/apfiles3.1/multistackedlegend)
+main.execute(0)
+main.endstore()
+main.beginstore(3)
+main.newapfile(/apfiles3.1/multilinelegend)
+main.execute(0)
+main.endstore()
+main.beginstore(4)
+main.newapfile(/apfiles3.1/multiarealegend)
+main.execute(0)
+main.endstore()
+">
+</applet>
+</nobr></td>
+</tr>
+</table>
+<script language='javascript'>gCurrentType[''] = 'MULTIBAR';</script>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<br>
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr bgColor ='#a1a1a1' >
+					<td width=5 class='datatableheader'>&nbsp;</td>
+					<td align ='LEFT' valign ='MIDDLE' class='datatableheader'  width='195.333333333333'>
+						Day
+					</td>
+					<td align ='RIGHT' valign ='MIDDLE' class='datatableheader'  width='195.333333333333'>
+						Hits
+					</td>
+					<td align ='RIGHT' valign ='MIDDLE' class='datatableheader'  width='195.333333333333'>
+						%
+					</td>
+					<td width=5 class='datatableheader'>&nbsp;</td>
+				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Sun
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						6
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						0.33%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Mon
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						520
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						29.41%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Tue
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						408
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						23.07%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Wed
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						397
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						22.45%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Thu
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						169
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						9.55%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Fri
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						194
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						10.97%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablenormal'  >
+						Sat
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						74
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablenormal'  >
+						4.18%
+					</td>
+					<td width=5 class='datatablenormal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/blackdot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablesubtotal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablesubtotal'  >
+						Total Weekend
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablesubtotal'  >
+						80
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablesubtotal'  >
+						4.52%
+					</td>
+					<td width=5 class='datatablesubtotal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatablesubtotal'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatablesubtotal'  >
+						Total Weekdays
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablesubtotal'  >
+						1,688
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatablesubtotal'  >
+						95.47%
+					</td>
+					<td width=5 class='datatablesubtotal'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td bgcolor=#ffffff colspan=5 height=1><img src='../../images/greydot.gif' width=100% height=1></td>				</tr>
+				<tr >
+					<td width=5 class='datatabletrailer'>&nbsp;</td>
+					<td align ='LEFT' valign ='TOP' class='datatabletrailer'  >
+						<B>Total</B>
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatabletrailer'  >
+						1,768
+					</td>
+					<td align ='RIGHT' valign ='TOP' class='datatabletrailer'  >
+						100%
+					</td>
+					<td width=5 class='datatabletrailer'>&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<br><a name='helpcardtopweekdays_htc'>
+
+<!-- ----------------- Table:   ------------- -->
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=600 bgcolor=#000000>
+		<td align=left valign=bottom width=1>
+			<img width=1 height=2 src='../../images/white.gif'></td>
+		<td width=596>
+			<table bgcolor=#000000 border=0 cellpadding=0 cellspacing=0 width=596>
+			<tr>
+				<td height=1></td>
+			<tr>
+				<td colspan=1>
+					<table border=0 cellspacing=0 cellpadding=2 width=596>
+				<tr bgColor ='#a1a1a1' >
+					<td align ='LEFT' valign ='MIDDLE' class='datatableheader'  width='500'>
+						Hits by Day of the Week - Help Card
+					</td>
+					<td align ='RIGHT' valign ='MIDDLE' class='datatableheader'  width='86'>
+						<a href='#TopOfPage'><img src='../../images/topchapt.gif' alt='Start of Chapter' border=0></a>
+					</td>
+				</tr>
+				<tr >
+					<td align ='LEFT' valign ='TOP' class='datatablenormal' colspan=2 >
+								<P class='helpcard'>
+			<img src="../../images/helpcardq1.gif" border=0>&nbsp;For example, if there are two Mondays in the report period, the value presented includes the activity of both Mondays. The table lists the number of hits, and percentage of total hits for each day of the week for the report period. Unsuccessful hits are not included.<BR><B>Tip: </B>Consider the Day of Week Filter to include or exclude activity based on the day of the week.
+			<br>
+			<br>
+			<img src="../../images/helpcardq2.gif" border=0>&nbsp;Days of less activity should be considered for maintenance and content improvement.
+		</P>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+		<tr>
+			<td height=3 valign=bottom>
+				<img width=2 height=2 src='../../images/white.gif'></td>
+		</table>
+	</td>
+	<td align=right valign=top bgcolor=#000000 width=3>
+		<img width=2 height=2 src='../../images/white.gif'></td>
+</table>
+</center>
+<BR>
+<!-- ----------------- webtrends trailer ------------- -->
+<center>
+<table cellpadding='3' cellspacing='0' border=0 width='600'>
+<tr>
+	<td width='100%' align='left'>
+	<hr noshade color='#000000'>
+	</td>
+</tr>
+<tr >
+	<td width='100%' align='center' >
+		&nbsp;This report was generated by <a href="http://www.webtrends.com" target=_new>WebTrends</a> Tuesday November 1, 2005 - 19:53:06
+	</td>
+</tr>
+<tr >
+	<td width='100%' align='center' >
+	
+	</td>
+</tr>
+</table>
+</center>
+<BR><BR></BODY>
+</HTML>

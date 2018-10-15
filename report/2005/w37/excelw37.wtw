@@ -1,0 +1,2279 @@
+<WT_EXCEL_META_FILE>
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visits,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="19" BoldFaceHeader="0" Table="1 - General Statistics " Title="General Statistics " >
+<B><!-- WT_SHADE1 -->General Statistics</B>, 
+Successful Hits For Entire Site, 665
+Average Hits Per Day, 95
+Home Page Hits, 29
+<B><!-- WT_SHADE1 -->Pages</B>, 
+Page Views (Impressions), 74
+Average Per Day, 10
+Document Views, 74
+<B><!-- WT_SHADE1 -->Visits</B>, 
+Visits, 47
+Average Per Day, 6
+Average Visit Length, 00:03:05
+International Visits, 0%
+Visits of Unknown Origin, 100%
+Visits from the United States, 0%
+<B><!-- WT_SHADE1 -->Visitors</B>, 
+Unique Visitors, 40
+Visitors Who Visited Once, 36
+Visitors Who Visited More Than Once, 4
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Page Views,)
+	Graph.Series    (Sun,8;Mon,9;Tue,11;Wed,14;Thu,8;Fri,15;Sat,9;)
+	TitleTop.setText(Page Views Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="2 - Page Views Over Time " Title="Page Views Over Time " >
+Time Interval, Page Views, %
+Sun, 8, 10.81%
+Mon, 9, 12.16%
+Tue, 11, 14.86%
+Wed, 14, 18.91%
+Thu, 8, 10.81%
+Fri, 15, 20.27%
+Sat, 9, 12.16%
+<B>Total</B>, 74, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,)
+	Graph.Series    (http://209.35.116.129/,27;http://209.35.116.129/02candidates/023jobs.html,16;http://209.35.116.129/03about.html,5;http://209.35.116.129/02candidates/021steps.html,5;http://209.35.116.129/02candidates.html,4;http://209.35.116.129/01employers.html,3;http://209.35.116.129/03about/031meetdonna.html,2;http://209.35.116.129/013contact.html,2;http://209.35.116.129/02candidates/022tips.html,2;http://209.35.116.129/03about/033cases.html,2;http://209.35.116.129/03about/032specialize.html,1;http://209.35.116.129/01employer/011steps.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/01employer/012start.html,1;)
+	TitleTop.setText(Top Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="5" NumRows="16" BoldFaceHeader="1" Table="3 - Top Pages by Visits " Title="Top Pages by Visits " >
+&nbsp;, Pages, Visits, %, Avg Time Viewed
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 37.5%, 00:00:16
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 16, 22.22%, 00:02:43
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 5, 6.94%, 00:00:15
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 5, 6.94%, 00:00:06
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 4, 5.55%, 00:02:45
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/01employers.html" target="_new" >http://209.35.116.129/01employers.html</a>, 3, 4.16%, 00:00:04
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 2, 2.77%, 00:00:56
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 2, 2.77%, 00:00:27
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 2, 2.77%, 
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 2, 2.77%, 
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/03about/032specialize.html" target="_new" >http://209.35.116.129/03about/032specialize.html</a>, 1, 1.38%, 00:00:19
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 1.38%, 00:27:25
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 1.38%, 
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="http://209.35.116.129/01employer/012start.html" target="_new" >http://209.35.116.129/01employer/012start.html</a>, 1, 1.38%, 
+&nbsp;, <B>Total</B>, 72, 100%, 00:01:48
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Hits,)
+	Graph.Series    (Sun,39;Mon,88;Tue,137;Wed,189;Thu,70;Fri,133;Sat,9;)
+	TitleTop.setText(Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="4 - Hits Over Time " Title="Hits Over Time " >
+Time Interval, Hits, %
+Sun, 39, 5.86%
+Mon, 88, 13.23%
+Tue, 137, 20.6%
+Wed, 189, 28.42%
+Thu, 70, 10.52%
+Fri, 133, 20%
+Sat, 9, 1.35%
+<B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visitors,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Unique Visitors,)
+	Graph.Series    (Sun,5;Mon,7;Tue,8;Wed,7;Thu,7;Fri,7;Sat,3;)
+	TitleTop.setText(Unique Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(First-Time Visitors,)
+	Graph.Series    (Sun,0;Mon,0;Tue,0;Wed,0;Thu,0;Fri,0;Sat,0;)
+	TitleTop.setText(First Time Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Avg Visit Length,)
+	Graph.Series    (Sun,01.73;Mon,00.01;Tue,00.10;Wed,01.18;Thu,00.11;Fri,00.30;Sat,07.45;)
+	TitleTop.setText(Average Length of Visit Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visitor-Minutes,)
+	Graph.Series    (Sun,10;Mon,0;Tue,0;Wed,8;Thu,0;Fri,2;Sat,29;)
+	TitleTop.setText(Visitor Minutes Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="6" NumRows="10" BoldFaceHeader="1" Table="5 - Visitors Over Time " Title="Visitors Over Time " >
+Time Frame, Visitors, Unique Visitors, First-Time Visitors, Avg Visit Length, Visitor-Minutes
+<nobr>09/04</nobr>, 6, 5, 0, 00:01:44, 10
+<nobr>09/05</nobr>, 8, 7, 0, 00:00:01, 0
+<nobr>09/06</nobr>, 8, 8, 0, 00:00:06, 0
+<nobr>09/07</nobr>, 7, 7, 0, 00:01:11, 8
+<nobr>09/08</nobr>, 7, 7, 0, 00:00:07, 0
+<nobr>09/09</nobr>, 7, 7, 0, 00:00:18, 2
+<nobr>09/10</nobr>, 4, 3, 0, 00:07:27, 29
+<B>Average</B>, 6, 6, 0, 00:03:05, 7
+<B>Total</B>, 47, 44, 0, N/A, 52
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (65.54.188.85,4;66.249.65.197,3;207.108.87.59,2;209.237.238.177,2;68.142.251.70,1;66.194.6.70,1;66.194.6.71,1;66.194.6.73,1;218.5.30.101,1;4.252.17.218,1;209.150.217.114,1;205.153.104.12,1;4.159.125.48,1;192.159.32.222,1;66.194.6.81,1;65.54.188.86,1;70.92.18.177,1;68.142.249.101,1;66.194.6.75,1;12.154.93.2,1;)
+	TitleTop.setText(Top Visitors)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="24" BoldFaceHeader="1" Table="6 - Top Visitors " Title="Top Visitors " >
+&nbsp;, Visitor, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 65.54.188.85, 4, 8.51%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, 66.249.65.197, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, 207.108.87.59, 2, 4.25%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, 209.237.238.177, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, 68.142.251.70, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, 66.194.6.70, 1, 2.12%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, 66.194.6.71, 1, 2.12%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, 66.194.6.73, 1, 2.12%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, 218.5.30.101, 1, 2.12%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, 4.252.17.218, 1, 2.12%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, 209.150.217.114, 1, 2.12%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, 205.153.104.12, 1, 2.12%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, 4.159.125.48, 1, 2.12%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, 192.159.32.222, 1, 2.12%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, 66.194.6.81, 1, 2.12%
+<nobr><img name="legend16" src="../../images/16.gif" align=top> 16.</nobr>, 65.54.188.86, 1, 2.12%
+<nobr><img name="legend17" src="../../images/1.gif" align=top> 17.</nobr>, 70.92.18.177, 1, 2.12%
+<nobr><img name="legend18" src="../../images/2.gif" align=top> 18.</nobr>, 68.142.249.101, 1, 2.12%
+<nobr><img name="legend19" src="../../images/3.gif" align=top> 19.</nobr>, 66.194.6.75, 1, 2.12%
+<nobr><img name="legend20" src="../../images/4.gif" align=top> 20.</nobr>, 12.154.93.2, 1, 2.12%
+&nbsp;, <B>Subtotal</B>, 27, 57.44%
+&nbsp;, <B>Other</B>, 20, 42.55%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,)
+	Graph.Series    (No Referrer,39;http://www.menziessearch.com/,4;http://www.whois.sc/,1;http://us.f310.mail.yahoo.com/,1;http://menziessearch.com/,1;http://www.google.com/,1;)
+	TitleTop.setText(Top Referring Sites by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="7 - Top Referring Sites by V" Title="Top Referring Sites by Visits " >
+&nbsp;, Site, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, No Referrer, 39, 82.97%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://www.menziessearch.com/" target="_new" >http://www.menziessearch.com/</a>, 4, 8.51%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://www.whois.sc/" target="_new" >http://www.whois.sc/</a>, 1, 2.12%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://us.f310.mail.yahoo.com/" target="_new" >http://us.f310.mail.yahoo.com/</a>, 1, 2.12%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://menziessearch.com/" target="_new" >http://menziessearch.com/</a>, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://www.google.com/" target="_new" >http://www.google.com/</a>, 1, 2.12%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,)
+	Graph.Series    (Microsoft Internet Explorer,20;Netscape,8;msnbot/1.0 [ http://search.msn.com/msnbot.htm],5;ia_archiver,2;SurveyBot/2.3 [Whois Source],1;-,1;Other Netscape Compatible,1;)
+	TitleTop.setText(Top Browsers by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="9" BoldFaceHeader="1" Table="8 - Top Browsers by Visits " Title="Top Browsers by Visits " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Microsoft Internet Explorer, 20, 52.63%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Netscape, 8, 21.05%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, msnbot/1.0 ( http://search.msn.com/msnbot.htm), 5, 13.15%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, ia_archiver, 2, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, SurveyBot/2.3 (Whois Source), 1, 2.63%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, -, 1, 2.63%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, Other Netscape Compatible, 1, 2.63%
+&nbsp;, <B>Total</B>, 38, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,)
+	Graph.Series    (http://209.35.116.129/,27;http://209.35.116.129/02candidates/023jobs.html,16;http://209.35.116.129/03about.html,5;http://209.35.116.129/02candidates/021steps.html,5;http://209.35.116.129/02candidates.html,4;http://209.35.116.129/01employers.html,3;http://209.35.116.129/03about/031meetdonna.html,2;http://209.35.116.129/013contact.html,2;http://209.35.116.129/02candidates/022tips.html,2;http://209.35.116.129/03about/033cases.html,2;http://209.35.116.129/03about/032specialize.html,1;http://209.35.116.129/01employer/011steps.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/01employer/012start.html,1;)
+	TitleTop.setText(Top Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="5" NumRows="16" BoldFaceHeader="1" Table="9 - Top Pages by Visits " Title="Top Pages by Visits " >
+&nbsp;, Pages, Visits, %, Avg Time Viewed
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 37.5%, 00:00:16
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 16, 22.22%, 00:02:43
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 5, 6.94%, 00:00:15
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 5, 6.94%, 00:00:06
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 4, 5.55%, 00:02:45
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/01employers.html" target="_new" >http://209.35.116.129/01employers.html</a>, 3, 4.16%, 00:00:04
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 2, 2.77%, 00:00:56
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 2, 2.77%, 00:00:27
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 2, 2.77%, 
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 2, 2.77%, 
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/03about/032specialize.html" target="_new" >http://209.35.116.129/03about/032specialize.html</a>, 1, 1.38%, 00:00:19
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 1.38%, 00:27:25
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 1.38%, 
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="http://209.35.116.129/01employer/012start.html" target="_new" >http://209.35.116.129/01employer/012start.html</a>, 1, 1.38%, 
+&nbsp;, <B>Total</B>, 72, 100%, 00:01:48
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,3,1,1,0,1;Mon,5,2,0,1,0;Tue,6,2,2,0,0;Wed,4,4,1,2,0;Thu,2,2,0,2,0;Fri,5,4,0,0,2;Sat,2,1,1,0,1;)
+	TitleTop.setText(Top Pages by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="5" NumRows="8" BoldFaceHeader="1" Table="10 - Top Pages by Visits Over" Title="Top Pages by Visits Over Time " >
+&nbsp;, Pages, Visits, %, Avg Time Viewed
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 37.5%, 00:00:16
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 16, 22.22%, 00:02:43
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 5, 6.94%, 00:00:15
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 5, 6.94%, 00:00:06
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 4, 5.55%, 00:02:45
+&nbsp;, <B>Subtotal</B>, 57, 79.16%, 00:00:58
+&nbsp;, <B>Total</B>, 72, 100%, 00:01:48
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,)
+	Graph.Series    (http://209.35.116.129/,29;http://209.35.116.129/02candidates/023jobs.html,16;http://209.35.116.129/02candidates/021steps.html,5;http://209.35.116.129/03about.html,5;http://209.35.116.129/02candidates.html,4;http://209.35.116.129/01employers.html,3;http://209.35.116.129/013contact.html,2;http://209.35.116.129/02candidates/022tips.html,2;http://209.35.116.129/03about/033cases.html,2;http://209.35.116.129/03about/031meetdonna.html,2;http://209.35.116.129/03about/032specialize.html,1;http://209.35.116.129/01employer/011steps.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/01employer/012start.html,1;)
+	TitleTop.setText(Top Pages by Views)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="5" NumRows="16" BoldFaceHeader="1" Table="11 - Top Pages by Views " Title="Top Pages by Views " >
+&nbsp;, Pages, Views, %, Avg Time Viewed
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 29, 39.18%, 00:00:16
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 16, 21.62%, 00:02:43
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 5, 6.75%, 00:00:06
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 5, 6.75%, 00:00:15
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 4, 5.4%, 00:02:45
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/01employers.html" target="_new" >http://209.35.116.129/01employers.html</a>, 3, 4.05%, 00:00:04
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 2, 2.7%, 00:00:27
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 2, 2.7%, 
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 2, 2.7%, 
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 2, 2.7%, 00:00:56
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/03about/032specialize.html" target="_new" >http://209.35.116.129/03about/032specialize.html</a>, 1, 1.35%, 00:00:19
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 1.35%, 00:27:25
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 1.35%, 
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="http://209.35.116.129/01employer/012start.html" target="_new" >http://209.35.116.129/01employer/012start.html</a>, 1, 1.35%, 
+&nbsp;, <B>Total</B>, 74, 100%, 00:01:48
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,3,1,0,1,1;Mon,5,2,1,0,0;Tue,6,2,0,2,0;Wed,5,4,2,1,0;Thu,2,2,2,0,0;Fri,6,4,0,0,2;Sat,2,1,0,1,1;)
+	TitleTop.setText(Top Pages by Views Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="5" NumRows="8" BoldFaceHeader="1" Table="12 - Top Pages by Views Over " Title="Top Pages by Views Over Time " >
+&nbsp;, Pages, Views, %, Avg Time Viewed
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 29, 39.18%, 00:00:16
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 16, 21.62%, 00:02:43
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 5, 6.75%, 00:00:06
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 5, 6.75%, 00:00:15
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 4, 5.4%, 00:02:45
+&nbsp;, <B>Subtotal</B>, 59, 79.72%, 00:00:58
+&nbsp;, <B>Total</B>, 74, 100%, 00:01:48
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,)
+	Graph.Series    (http://209.35.116.129/,27;http://209.35.116.129/02candidates/023jobs.html,4;http://209.35.116.129/02candidates/021steps.html,4;http://209.35.116.129/03about.html,3;http://209.35.116.129/02candidates.html,1;http://209.35.116.129/013contact.html,1;http://209.35.116.129/02candidates/022tips.html,1;http://209.35.116.129/03about/031meetdonna.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/03about/033cases.html,1;http://209.35.116.129/01employer/011steps.html,1;)
+	TitleTop.setText(Top Entry Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="13" BoldFaceHeader="1" Table="13 - Top Entry Pages by Visit" Title="Top Entry Pages by Visits " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 60%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 4, 8.88%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 4, 8.88%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.66%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.22%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.22%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.22%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.22%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 2.22%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 2.22%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.22%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,3,0,0,1,1;Mon,5,1,1,0,0;Tue,6,1,0,1,0;Wed,4,0,1,0,0;Thu,2,1,2,0,0;Fri,5,1,0,0,0;Sat,2,0,0,1,0;)
+	TitleTop.setText(Top Entry Pages by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="14 - Top Entry Pages by Visit" Title="Top Entry Pages by Visits Over Time " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 60%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 4, 8.88%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 4, 8.88%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.66%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.22%
+&nbsp;, <B>Subtotal</B>, 39, 86.66%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,)
+	Graph.Series    (http://209.35.116.129/02candidates/022tips.html,1;http://209.35.116.129/013contact.html,1;http://209.35.116.129/01employer/011steps.html,1;http://209.35.116.129/02candidates.html,1;http://209.35.116.129/03about/033cases.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/03about/031meetdonna.html,1;http://209.35.116.129/03about.html,3;http://209.35.116.129/02candidates/021steps.html,4;http://209.35.116.129/02candidates/023jobs.html,4;http://209.35.116.129/,27;)
+	TitleTop.setText(Least Requested Entry Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="13" BoldFaceHeader="1" Table="15 - Least Requested Entry Pa" Title="Least Requested Entry Pages by Visits " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.22%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.22%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.22%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.22%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 2.22%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 2.22%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.22%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.66%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 4, 8.88%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 4, 8.88%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 60%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,0,0,0,1,0;Mon,0,0,0,0,1;Tue,0,0,0,0,0;Wed,0,1,0,0,0;Thu,1,0,0,0,0;Fri,0,0,0,0,0;Sat,0,0,1,0,0;)
+	TitleTop.setText(Least Requested Entry Pages by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="16 - Least Requested Entry Pa" Title="Least Requested Entry Pages by Visits Over Time " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.22%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.22%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.22%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.22%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 2.22%
+&nbsp;, <B>Subtotal</B>, 5, 11.11%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,)
+	Graph.Series    (http://209.35.116.129/,17;http://209.35.116.129/02candidates/023jobs.html,13;http://209.35.116.129/02candidates/021steps.html,3;http://209.35.116.129/03about.html,2;http://209.35.116.129/02candidates/022tips.html,2;http://209.35.116.129/01employers.html,2;http://209.35.116.129/03about/033cases.html,2;http://209.35.116.129/013contact.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/01employer/012start.html,1;http://209.35.116.129/03about/031meetdonna.html,1;)
+	TitleTop.setText(Top Exit Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="13" BoldFaceHeader="1" Table="17 - Top Exit Pages by Visits" Title="Top Exit Pages by Visits " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 17, 37.77%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 13, 28.88%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 3, 6.66%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 2, 4.44%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 2, 4.44%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/01employers.html" target="_new" >http://209.35.116.129/01employers.html</a>, 2, 4.44%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 2, 4.44%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.22%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 2.22%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/01employer/012start.html" target="_new" >http://209.35.116.129/01employer/012start.html</a>, 1, 2.22%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.22%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,2,1,0,1,0;Mon,5,2,0,0,0;Tue,4,2,0,1,0;Wed,1,3,1,0,0;Thu,1,1,2,0,2;Fri,2,4,0,0,0;Sat,2,0,0,0,0;)
+	TitleTop.setText(Top Exit Pages by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="18 - Top Exit Pages by Visits" Title="Top Exit Pages by Visits Over Time " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 17, 37.77%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 13, 28.88%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 3, 6.66%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 2, 4.44%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 2, 4.44%
+&nbsp;, <B>Subtotal</B>, 37, 82.22%
+&nbsp;, <B>Total</B>, 45, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,)
+	Graph.Series    (http://209.35.116.129/,17;http://209.35.116.129/02candidates/023jobs.html,3;http://209.35.116.129/03about.html,2;http://209.35.116.129/02candidates/021steps.html,2;http://209.35.116.129/03about/033cases.html,1;http://209.35.116.129/02candidates/022tips.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/013contact.html,1;)
+	TitleTop.setText(Single Access Pages by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="10" BoldFaceHeader="1" Table="19 - Single Access Pages by V" Title="Single Access Pages by Visits " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 17, 60.71%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 3, 10.71%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 2, 7.14%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 2, 7.14%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 3.57%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 3.57%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 3.57%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 3.57%
+&nbsp;, <B>Total</B>, 28, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,2,0,1,0,0;Mon,5,1,0,0,1;Tue,4,1,1,0,0;Wed,1,0,0,0,0;Thu,1,0,0,2,0;Fri,2,1,0,0,0;Sat,2,0,0,0,0;)
+	TitleTop.setText(Single Access Pages by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="20 - Single Access Pages by V" Title="Single Access Pages by Visits Over Time " >
+&nbsp;, Pages, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 17, 60.71%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 3, 10.71%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 2, 7.14%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 2, 7.14%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 3.57%
+&nbsp;, <B>Subtotal</B>, 25, 89.28%
+&nbsp;, <B>Total</B>, 28, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Page Views,)
+	Graph.Series    (Sun,8;Mon,9;Tue,11;Wed,14;Thu,8;Fri,15;Sat,9;)
+	TitleTop.setText(Page Views Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="21 - Page Views Over Time " Title="Page Views Over Time " >
+Time Interval, Page Views, %
+Sun, 8, 10.81%
+Mon, 9, 12.16%
+Tue, 11, 14.86%
+Wed, 14, 18.91%
+Thu, 8, 10.81%
+Fri, 15, 20.27%
+Sat, 9, 12.16%
+<B>Total</B>, 74, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="46" BoldFaceHeader="1" Table="22 - Top Paths Through Site b" Title="Top Paths Through Site by Visits" >
+Starting Page, Paths from Start, Visits, %
+All Entry Pages, , , 
+ , 1.1: http://209.35.116.129/, 17, 37.77%
+ , 1.2: http://209.35.116.129/, 5, 11.11%
+ , 2.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 1.1: http://209.35.116.129/ 02candidates/023jobs.html, 3, 6.66%
+ , 1.1: http://209.35.116.129/03about. html, 2, 4.44%
+ , 1.2: http://209.35.116.129/ 02candidates/021steps.html, 2, 4.44%
+ , 2.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 1.1: http://209.35.116.129/ 02candidates/021steps.html, 2, 4.44%
+ , 1.3: http://209.35.116.129/, 1, 2.22%
+ , 2.http://209.35.116.129/ 02candidates.html, , 
+ , 3.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 1.3: http://209.35.116.129/, 1, 2.22%
+ , 2.http://209.35.116.129/03about. html, , 
+ , 3.http://209.35.116.129/03about/ 031meetdonna.html, , 
+ , 1.5: http://209.35.116.129/03about. html, 1, 2.22%
+ , 2.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 3.http://209.35.116.129/ 02candidates.html, , 
+ , 4.http://209.35.116.129/ 013contact.html, , 
+ , 5.http://209.35.116.129/ 01employers.html, , 
+ , 1.2: http://209.35.116.129/ 01employer/011steps.html, 1, 2.22%
+ , 2.http://209.35.116.129/ 01employer/012start.html, , 
+ , 1.1: http://209.35.116.129/http:// www.intel.com/, 1, 2.22%
+ , 1.2: http://209.35.116.129/ 02candidates.html, 1, 2.22%
+ , 2.http://209.35.116.129/ 01employers.html, , 
+ , 1.5: http://209.35.116.129/, 1, 2.22%
+ , 2.http://209.35.116.129/ 01employers.html, , 
+ , 3.http://209.35.116.129/03about. html, , 
+ , 4.http://209.35.116.129/, , 
+ , 5.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 1.4: http://209.35.116.129/, 1, 2.22%
+ , 2.http://209.35.116.129/ 02candidates.html, , 
+ , 3.http://209.35.116.129/, , 
+ , 4.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 1.3: http://209.35.116.129/03about/ 031meetdonna.html, 1, 2.22%
+ , 2.http://209.35.116.129/03about/ 032specialize.html, , 
+ , 3.http://209.35.116.129/03about/ 033cases.html, , 
+ , 1.1: http://209.35.116.129/ 013contact.html, 1, 2.22%
+ , 1.1: http://209.35.116.129/03about/ 033cases.html, 1, 2.22%
+ , 1.3: http://209.35.116.129/, 1, 2.22%
+ , 2.http://209.35.116.129/ 02candidates/023jobs.html, , 
+ , 3.http://209.35.116.129/ 02candidates/021steps.html, , 
+ , 1.2: http://209.35.116.129/ 02candidates/023jobs.html, 1, 2.22%
+ , 2.http://209.35.116.129/ 02candidates/022tips.html, , 
+ , 1.1: http://209.35.116.129/ 02candidates/022tips.html, 1, 2.22%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="21" BoldFaceHeader="1" Table="23 - Top Paths Through Site b" Title="Top Paths Through Site by Visits " >
+Starting Page, Paths from Start, Visits, %
+All Entry Pages, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A>, 17, 37.77%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 5, 11.11%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 3, 6.66%
+&nbsp;, 1.<A HREF="http://209.35.116.129/03about.html" TARGET=_new >http://209.35.116.129/03about.html</A>, 2, 4.44%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates/021steps.html" TARGET=_new >http://209.35.116.129/02candidates/021steps.html</A><BR>2.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 2, 4.44%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates/021steps.html" TARGET=_new >http://209.35.116.129/02candidates/021steps.html</A>, 2, 4.44%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/02candidates.html" TARGET=_new >http://209.35.116.129/02candidates.html</A><BR>3.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/03about.html" TARGET=_new >http://209.35.116.129/03about.html</A><BR>3.<A HREF="http://209.35.116.129/03about/031meetdonna.html" TARGET=_new >http://209.35.116.129/03about/031meetdonna.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/03about.html" TARGET=_new >http://209.35.116.129/03about.html</A><BR>2.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A><BR>3.<A HREF="http://209.35.116.129/02candidates.html" TARGET=_new >http://209.35.116.129/02candidates.html</A><BR>4.<A HREF="http://209.35.116.129/013contact.html" TARGET=_new >http://209.35.116.129/013contact.html</A><BR>5.<A HREF="http://209.35.116.129/01employers.html" TARGET=_new >http://209.35.116.129/01employers.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/01employer/011steps.html" TARGET=_new >http://209.35.116.129/01employer/011steps.html</A><BR>2.<A HREF="http://209.35.116.129/01employer/012start.html" TARGET=_new >http://209.35.116.129/01employer/012start.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/http://www.intel.com/" TARGET=_new >http://209.35.116.129/http://www.intel.com/</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates.html" TARGET=_new >http://209.35.116.129/02candidates.html</A><BR>2.<A HREF="http://209.35.116.129/01employers.html" TARGET=_new >http://209.35.116.129/01employers.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/01employers.html" TARGET=_new >http://209.35.116.129/01employers.html</A><BR>3.<A HREF="http://209.35.116.129/03about.html" TARGET=_new >http://209.35.116.129/03about.html</A><BR>4.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>5.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/02candidates.html" TARGET=_new >http://209.35.116.129/02candidates.html</A><BR>3.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>4.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/03about/031meetdonna.html" TARGET=_new >http://209.35.116.129/03about/031meetdonna.html</A><BR>2.<A HREF="http://209.35.116.129/03about/032specialize.html" TARGET=_new >http://209.35.116.129/03about/032specialize.html</A><BR>3.<A HREF="http://209.35.116.129/03about/033cases.html" TARGET=_new >http://209.35.116.129/03about/033cases.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/013contact.html" TARGET=_new >http://209.35.116.129/013contact.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/03about/033cases.html" TARGET=_new >http://209.35.116.129/03about/033cases.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/" TARGET=_new >http://209.35.116.129/</A><BR>2.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A><BR>3.<A HREF="http://209.35.116.129/02candidates/021steps.html" TARGET=_new >http://209.35.116.129/02candidates/021steps.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates/023jobs.html" TARGET=_new >http://209.35.116.129/02candidates/023jobs.html</A><BR>2.<A HREF="http://209.35.116.129/02candidates/022tips.html" TARGET=_new >http://209.35.116.129/02candidates/022tips.html</A>, 1, 2.22%
+&nbsp;, 1.<A HREF="http://209.35.116.129/02candidates/022tips.html" TARGET=_new >http://209.35.116.129/02candidates/022tips.html</A>, 1, 2.22%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Hits,)
+	Graph.Series    (Sun,39;Mon,88;Tue,137;Wed,189;Thu,70;Fri,133;Sat,9;)
+	TitleTop.setText(Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="24 - Hits Over Time " Title="Hits Over Time " >
+Time Interval, Hits, %
+Sun, 39, 5.86%
+Mon, 88, 13.23%
+Tue, 137, 20.6%
+Wed, 189, 28.42%
+Thu, 70, 10.52%
+Fri, 133, 20%
+Sat, 9, 1.35%
+<B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (http://209.35.116.129/,39;http://209.35.116.129/pix,21;http://209.35.116.129/02candidates,19;http://209.35.116.129/03about,3;http://209.35.116.129/01employer,1;)
+	TitleTop.setText(Top Directories by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="25 - Top Directories by Visit" Title="Top Directories by Visits " >
+&nbsp;, Path To Directory, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 39, 46.98%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/pix" target="_new" >http://209.35.116.129/pix</a>, 21, 25.3%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates" target="_new" >http://209.35.116.129/02candidates</a>, 19, 22.89%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about" target="_new" >http://209.35.116.129/03about</a>, 3, 3.61%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/01employer" target="_new" >http://209.35.116.129/01employer</a>, 1, 1.2%
+&nbsp;, <B>Total</B>, 83, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|area
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,5,1,1,0,0;Mon,7,2,2,1,0;Tue,8,5,2,1,0;Wed,6,5,4,0,0;Thu,4,4,5,0,0;Fri,6,4,4,1,0;Sat,3,0,1,0,1;)
+	TitleTop.setText(Top Directories by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="26 - Top Directories by Visit" Title="Top Directories by Visits Over Time " >
+&nbsp;, Path To Directory, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 39, 46.98%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/pix" target="_new" >http://209.35.116.129/pix</a>, 21, 25.3%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates" target="_new" >http://209.35.116.129/02candidates</a>, 19, 22.89%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about" target="_new" >http://209.35.116.129/03about</a>, 3, 3.61%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/01employer" target="_new" >http://209.35.116.129/01employer</a>, 1, 1.2%
+&nbsp;, <B>Total</B>, 83, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (http://209.35.116.129/pix,573;http://209.35.116.129/,61;http://209.35.116.129/02candidates,23;http://209.35.116.129/03about,5;http://209.35.116.129/01employer,2;)
+	TitleTop.setText(Top Directories by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="27 - Top Directories by Hits " Title="Top Directories by Hits " >
+&nbsp;, Path To Directory, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/pix" target="_new" >http://209.35.116.129/pix</a>, 573, 86.29%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 61, 9.18%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates" target="_new" >http://209.35.116.129/02candidates</a>, 23, 3.46%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about" target="_new" >http://209.35.116.129/03about</a>, 5, 0.75%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/01employer" target="_new" >http://209.35.116.129/01employer</a>, 2, 0.3%
+&nbsp;, <B>Total</B>, 664, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|area
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,30,7,1,0,0;Mon,76,8,3,1,0;Tue,123,11,2,1,0;Wed,170,13,6,0,0;Thu,60,4,6,0,0;Fri,114,12,4,3,0;Sat,0,6,1,0,2;)
+	TitleTop.setText(Top Directories by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="28 - Top Directories by Hits " Title="Top Directories by Hits Over Time " >
+&nbsp;, Path To Directory, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/pix" target="_new" >http://209.35.116.129/pix</a>, 573, 86.29%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 61, 9.18%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates" target="_new" >http://209.35.116.129/02candidates</a>, 23, 3.46%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about" target="_new" >http://209.35.116.129/03about</a>, 5, 0.75%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/01employer" target="_new" >http://209.35.116.129/01employer</a>, 2, 0.3%
+&nbsp;, <B>Total</B>, 664, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (http://209.35.116.129/,661;http://209.35.116.129/pix,441;http://209.35.116.129/02candidates,369;http://209.35.116.129/03about,87;http://209.35.116.129/01employer,32;)
+	TitleTop.setText(Top Directories by Kbytes Transferred)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="29 - Top Directories by Kbyte" Title="Top Directories by Kbytes Transferred " >
+&nbsp;, Path To Directory, Kbytes Transferred, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 661, 41.62%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/pix" target="_new" >http://209.35.116.129/pix</a>, 441, 27.74%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/02candidates" target="_new" >http://209.35.116.129/02candidates</a>, 369, 23.2%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/03about" target="_new" >http://209.35.116.129/03about</a>, 87, 5.44%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/01employer" target="_new" >http://209.35.116.129/01employer</a>, 32, 1.97%
+&nbsp;, <B>Total</B>, 1588, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,)
+	Graph.Series    (gif,441;html,42;jpg,30;php,23;css,14;com/,1;)
+	TitleTop.setText(Most Downloaded File Types)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="30 - Most Downloaded File Typ" Title="Most Downloaded File Types " >
+&nbsp;, File Type, Files, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, gif, 441, 80.03%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, html, 42, 7.62%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, jpg, 30, 5.44%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, php, 23, 4.17%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, css, 14, 2.54%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, com/, 1, 0.18%
+&nbsp;, <B>Total</B>, 551, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,)
+	Graph.Series    (html,772;php,359;gif,289;jpg,152;css,17;com/,17;)
+	TitleTop.setText(Most Downloaded File Types by Kbytes Transferred)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="31 - Most Downloaded File Typ" Title="Most Downloaded File Types by Kbytes Transferred " >
+&nbsp;, File Type, Kbytes Transferred, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, html, 772, 48.09%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, php, 359, 22.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, gif, 289, 18%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, jpg, 152, 9.46%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, css, 17, 1.05%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, com/, 17, 1%
+&nbsp;, <B>Total</B>, 1604, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,)
+	Graph.Series    (http://209.35.116.129/,27;http://209.35.116.129/02candidates/021steps.html,3;http://209.35.116.129/03about.html,3;http://209.35.116.129/pix/photo_home.jpg,2;http://209.35.116.129/02candidates/023jobs.html,2;http://209.35.116.129/02candidates.html,1;http://209.35.116.129/013contact.html,1;http://209.35.116.129/pix/back_home.gif,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/03about/033cases.html,1;http://209.35.116.129/pix/fwiw.gif,1;http://209.35.116.129/pix/slogan.gif,1;http://209.35.116.129/02candidates/022tips.html,1;http://209.35.116.129/03about/031meetdonna.html,1;http://209.35.116.129/01employer/011steps.html,1;)
+	TitleTop.setText(Top Entry Files by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="17" BoldFaceHeader="1" Table="32 - Top Entry Files by Visit" Title="Top Entry Files by Visits " >
+&nbsp;, Files, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 57.44%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.38%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/pix/photo_home.jpg" target="_new" >http://209.35.116.129/pix/photo_home.jpg</a>, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 2, 4.25%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.12%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.12%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/pix/back_home.gif" target="_new" >http://209.35.116.129/pix/back_home.gif</a>, 1, 2.12%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 2.12%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 2.12%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/pix/fwiw.gif" target="_new" >http://209.35.116.129/pix/fwiw.gif</a>, 1, 2.12%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="http://209.35.116.129/pix/slogan.gif" target="_new" >http://209.35.116.129/pix/slogan.gif</a>, 1, 2.12%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.12%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.12%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.12%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,3,0,1,0,0;Mon,5,1,0,0,1;Tue,6,0,1,1,0;Wed,4,1,0,1,0;Thu,2,1,0,0,0;Fri,5,0,0,0,1;Sat,2,0,1,0,0;)
+	TitleTop.setText(Top Entry Files by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="33 - Top Entry Files by Visit" Title="Top Entry Files by Visits Over Time " >
+&nbsp;, Files, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 57.44%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.38%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/pix/photo_home.jpg" target="_new" >http://209.35.116.129/pix/photo_home.jpg</a>, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 2, 4.25%
+&nbsp;, <B>Subtotal</B>, 37, 78.72%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,)
+	Graph.Series    (http://209.35.116.129/01employer/011steps.html,1;http://209.35.116.129/013contact.html,1;http://209.35.116.129/03about/031meetdonna.html,1;http://209.35.116.129/02candidates/022tips.html,1;http://209.35.116.129/02candidates.html,1;http://209.35.116.129/pix/slogan.gif,1;http://209.35.116.129/pix/fwiw.gif,1;http://209.35.116.129/03about/033cases.html,1;http://209.35.116.129/http://www.intel.com/,1;http://209.35.116.129/pix/back_home.gif,1;http://209.35.116.129/02candidates/023jobs.html,2;http://209.35.116.129/pix/photo_home.jpg,2;http://209.35.116.129/03about.html,3;http://209.35.116.129/02candidates/021steps.html,3;http://209.35.116.129/,27;)
+	TitleTop.setText(Least Requested Entry Files by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="17" BoldFaceHeader="1" Table="34 - Least Requested Entry Fi" Title="Least Requested Entry Files by Visits " >
+&nbsp;, Files, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.12%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.12%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.12%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.12%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://209.35.116.129/pix/slogan.gif" target="_new" >http://209.35.116.129/pix/slogan.gif</a>, 1, 2.12%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="http://209.35.116.129/pix/fwiw.gif" target="_new" >http://209.35.116.129/pix/fwiw.gif</a>, 1, 2.12%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="http://209.35.116.129/03about/033cases.html" target="_new" >http://209.35.116.129/03about/033cases.html</a>, 1, 2.12%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="http://209.35.116.129/http://www.intel.com/" target="_new" >http://209.35.116.129/http://www.intel.com/</a>, 1, 2.12%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="http://209.35.116.129/pix/back_home.gif" target="_new" >http://209.35.116.129/pix/back_home.gif</a>, 1, 2.12%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="http://209.35.116.129/02candidates/023jobs.html" target="_new" >http://209.35.116.129/02candidates/023jobs.html</a>, 2, 4.25%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="http://209.35.116.129/pix/photo_home.jpg" target="_new" >http://209.35.116.129/pix/photo_home.jpg</a>, 2, 4.25%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="http://209.35.116.129/03about.html" target="_new" >http://209.35.116.129/03about.html</a>, 3, 6.38%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="http://209.35.116.129/02candidates/021steps.html" target="_new" >http://209.35.116.129/02candidates/021steps.html</a>, 3, 6.38%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, <a href="http://209.35.116.129/" target="_new" >http://209.35.116.129/</a>, 27, 57.44%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,0,0,0,0,1;Mon,0,0,0,0,0;Tue,0,0,0,0,0;Wed,0,1,0,0,0;Thu,0,0,0,1,0;Fri,0,0,1,0,0;Sat,1,0,0,0,0;)
+	TitleTop.setText(Least Requested Entry Files by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="35 - Least Requested Entry Fi" Title="Least Requested Entry Files by Visits Over Time " >
+&nbsp;, Files, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="http://209.35.116.129/01employer/011steps.html" target="_new" >http://209.35.116.129/01employer/011steps.html</a>, 1, 2.12%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://209.35.116.129/013contact.html" target="_new" >http://209.35.116.129/013contact.html</a>, 1, 2.12%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://209.35.116.129/03about/031meetdonna.html" target="_new" >http://209.35.116.129/03about/031meetdonna.html</a>, 1, 2.12%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://209.35.116.129/02candidates/022tips.html" target="_new" >http://209.35.116.129/02candidates/022tips.html</a>, 1, 2.12%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://209.35.116.129/02candidates.html" target="_new" >http://209.35.116.129/02candidates.html</a>, 1, 2.12%
+&nbsp;, <B>Subtotal</B>, 5, 10.63%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (65.54.188.85,4;66.249.65.197,3;207.108.87.59,2;209.237.238.177,2;68.142.251.70,1;66.194.6.70,1;66.194.6.71,1;66.194.6.73,1;218.5.30.101,1;4.252.17.218,1;209.150.217.114,1;205.153.104.12,1;4.159.125.48,1;192.159.32.222,1;66.194.6.81,1;65.54.188.86,1;70.92.18.177,1;68.142.249.101,1;66.194.6.75,1;12.154.93.2,1;)
+	TitleTop.setText(Top Visitors)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="24" BoldFaceHeader="1" Table="36 - Top Visitors " Title="Top Visitors " >
+&nbsp;, Visitor, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 65.54.188.85, 4, 8.51%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, 66.249.65.197, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, 207.108.87.59, 2, 4.25%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, 209.237.238.177, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, 68.142.251.70, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, 66.194.6.70, 1, 2.12%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, 66.194.6.71, 1, 2.12%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, 66.194.6.73, 1, 2.12%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, 218.5.30.101, 1, 2.12%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, 4.252.17.218, 1, 2.12%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, 209.150.217.114, 1, 2.12%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, 205.153.104.12, 1, 2.12%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, 4.159.125.48, 1, 2.12%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, 192.159.32.222, 1, 2.12%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, 66.194.6.81, 1, 2.12%
+<nobr><img name="legend16" src="../../images/16.gif" align=top> 16.</nobr>, 65.54.188.86, 1, 2.12%
+<nobr><img name="legend17" src="../../images/1.gif" align=top> 17.</nobr>, 70.92.18.177, 1, 2.12%
+<nobr><img name="legend18" src="../../images/2.gif" align=top> 18.</nobr>, 68.142.249.101, 1, 2.12%
+<nobr><img name="legend19" src="../../images/3.gif" align=top> 19.</nobr>, 66.194.6.75, 1, 2.12%
+<nobr><img name="legend20" src="../../images/4.gif" align=top> 20.</nobr>, 12.154.93.2, 1, 2.12%
+&nbsp;, <B>Subtotal</B>, 27, 57.44%
+&nbsp;, <B>Other</B>, 20, 42.55%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,2,0,0,0,0;Mon,2,0,1,1,0;Tue,0,0,0,1,0;Wed,0,0,1,0,1;Thu,0,0,0,0,0;Fri,0,1,0,0,0;Sat,0,2,0,0,0;)
+	TitleTop.setText(Top Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="37 - Top Visitors Over Time " Title="Top Visitors Over Time " >
+&nbsp;, Visitor, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 65.54.188.85, 4, 8.51%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, 66.249.65.197, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, 207.108.87.59, 2, 4.25%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, 209.237.238.177, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, 68.142.251.70, 1, 2.12%
+&nbsp;, <B>Subtotal</B>, 12, 25.53%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (207.108.87.59,100;12.40.178.133,55;64.122.86.28,36;192.159.32.222,35;209.150.217.114,35;24.123.118.2,34;63.84.29.5,33;66.243.17.161,33;205.153.104.12,33;207.91.218.50,33;70.92.18.177,32;4.159.125.48,32;4.252.17.218,30;69.23.246.71,26;24.223.218.243,18;4.159.35.31,18;70.94.231.229,17;12.154.93.2,13;207.78.21.15,10;12.154.92.2,10;)
+	TitleTop.setText(Top Visitors by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="23" BoldFaceHeader="1" Table="38 - Top Visitors by Hits " Title="Top Visitors by Hits " >
+&nbsp;, Visitor, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 207.108.87.59, 100, 15.03%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, 12.40.178.133, 55, 8.27%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, 64.122.86.28, 36, 5.41%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, 192.159.32.222, 35, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, 209.150.217.114, 35, 5.26%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, 24.123.118.2, 34, 5.11%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, 63.84.29.5, 33, 4.96%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, 66.243.17.161, 33, 4.96%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, 205.153.104.12, 33, 4.96%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, 207.91.218.50, 33, 4.96%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, 70.92.18.177, 32, 4.81%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, 4.159.125.48, 32, 4.81%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, 4.252.17.218, 30, 4.51%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, 69.23.246.71, 26, 3.9%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, 24.223.218.243, 18, 2.7%
+<nobr><img name="legend16" src="../../images/16.gif" align=top> 16.</nobr>, 4.159.35.31, 18, 2.7%
+<nobr><img name="legend17" src="../../images/1.gif" align=top> 17.</nobr>, 70.94.231.229, 17, 2.55%
+<nobr><img name="legend18" src="../../images/2.gif" align=top> 18.</nobr>, 12.154.93.2, 13, 1.95%
+<nobr><img name="legend19" src="../../images/3.gif" align=top> 19.</nobr>, 207.78.21.15, 10, 1.5%
+<nobr><img name="legend20" src="../../images/4.gif" align=top> 20.</nobr>, 12.154.92.2, 10, 1.5%
+&nbsp;, <B>Subtotal</B>, 633, 95.18%
+&nbsp;, <B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,0,0,0,0,0;Mon,50,0,0,0,0;Tue,0,0,0,0,0;Wed,50,55,0,0,35;Thu,0,0,0,0,0;Fri,0,0,36,35,0;Sat,0,0,0,0,0;)
+	TitleTop.setText(Top Visitors by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="39 - Top Visitors by Hits Ove" Title="Top Visitors by Hits Over Time " >
+&nbsp;, Visitor, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 207.108.87.59, 100, 15.03%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, 12.40.178.133, 55, 8.27%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, 64.122.86.28, 36, 5.41%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, 192.159.32.222, 35, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, 209.150.217.114, 35, 5.26%
+&nbsp;, <B>Subtotal</B>, 261, 39.24%
+&nbsp;, <B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|pie
+	Graph.categories(Users Without Cookies,)
+	Graph.Series    (_,47;)
+	TitleTop.setText(New vs. Returning Visitors)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="40 - New vs. Returning Visito" Title="New vs. Returning Visitors " >
+&nbsp;, New or Returning Visitor, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Users Without Cookies, 47, 100%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(1,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(New vs. Returning Visitors  Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="41 - New vs. Returning Visito" Title="New vs. Returning Visitors Over Time " >
+&nbsp;, New or Returning Visitor, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Users Without Cookies, 47, 100%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visitors,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Unique Visitors,)
+	Graph.Series    (Sun,5;Mon,7;Tue,8;Wed,7;Thu,7;Fri,7;Sat,3;)
+	TitleTop.setText(Unique Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(First-Time Visitors,)
+	Graph.Series    (Sun,0;Mon,0;Tue,0;Wed,0;Thu,0;Fri,0;Sat,0;)
+	TitleTop.setText(First Time Visitors Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Avg Visit Length,)
+	Graph.Series    (Sun,01.73;Mon,00.01;Tue,00.10;Wed,01.18;Thu,00.11;Fri,00.30;Sat,07.45;)
+	TitleTop.setText(Average Length of Visit Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visitor-Minutes,)
+	Graph.Series    (Sun,10;Mon,0;Tue,0;Wed,8;Thu,0;Fri,2;Sat,29;)
+	TitleTop.setText(Visitor Minutes Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="6" NumRows="10" BoldFaceHeader="1" Table="42 - Visitors Over Time " Title="Visitors Over Time " >
+Time Frame, Visitors, Unique Visitors, First-Time Visitors, Avg Visit Length, Visitor-Minutes
+<nobr>09/04</nobr>, 6, 5, 0, 00:01:44, 10
+<nobr>09/05</nobr>, 8, 7, 0, 00:00:01, 0
+<nobr>09/06</nobr>, 8, 8, 0, 00:00:06, 0
+<nobr>09/07</nobr>, 7, 7, 0, 00:01:11, 8
+<nobr>09/08</nobr>, 7, 7, 0, 00:00:07, 0
+<nobr>09/09</nobr>, 7, 7, 0, 00:00:18, 2
+<nobr>09/10</nobr>, 4, 3, 0, 00:07:27, 29
+<B>Average</B>, 6, 6, 0, 00:03:05, 7
+<B>Total</B>, 47, 44, 0, N/A, 52
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visits,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="43 - Visits Over Time " Title="Visits Over Time " >
+Time Interval, Visits, %
+Sun, 6, 12.76%
+Mon, 8, 17.02%
+Tue, 8, 17.02%
+Wed, 7, 14.89%
+Thu, 7, 14.89%
+Fri, 7, 14.89%
+Sat, 4, 8.51%
+<B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,)
+	Graph.Series    (1 visit,36;2 visits,2;3 visits,1;4 visits,1;5 visits,0;6 visits,0;7 visits,0;8 visits,0;9 visits,0;)
+	TitleTop.setText(Visitors by Number of Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="11" BoldFaceHeader="1" Table="44 - Visitors by Number of Vi" Title="Visitors by Number of Visits " >
+Number of Visits, Number of Visitors, % of Total Unique Visitors
+1 visit, 36, 90%
+2 visits, 2, 5%
+3 visits, 1, 2.5%
+4 visits, 1, 2.5%
+5 visits, 0, 0%
+6 visits, 0, 0%
+7 visits, 0, 0%
+8 visits, 0, 0%
+9 visits, 0, 0%
+<B>Total</B>, 40, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|pie
+	Graph.categories(Region Un-Specified,)
+	Graph.Series    (_,47;)
+	TitleTop.setText(Top Geographic Regions)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="45 - Top Geographic Regions " Title="Top Geographic Regions " >
+&nbsp;, Geographic Regions, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Region Un-Specified, 47, 100%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (65.54.188.85,4;66.249.65.197,3;207.108.87.59,2;209.237.238.177,2;68.142.251.70,1;66.194.6.70,1;65.54.188.86,1;66.194.6.73,1;218.5.30.101,1;4.252.17.218,1;209.150.217.114,1;205.153.104.12,1;4.159.125.48,1;192.159.32.222,1;66.194.6.81,1;66.194.6.71,1;70.92.18.177,1;68.142.249.101,1;66.194.6.75,1;12.154.93.2,1;)
+	TitleTop.setText(Most Active Organizations by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="24" BoldFaceHeader="1" Table="46 - Most Active Organization" Title="Most Active Organizations by Visits " >
+&nbsp;, Organizations, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="65.54.188.85" target="_new" >65.54.188.85</a>, 4, 8.51%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="66.249.65.197" target="_new" >66.249.65.197</a>, 3, 6.38%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="207.108.87.59" target="_new" >207.108.87.59</a>, 2, 4.25%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="209.237.238.177" target="_new" >209.237.238.177</a>, 2, 4.25%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="68.142.251.70" target="_new" >68.142.251.70</a>, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="66.194.6.70" target="_new" >66.194.6.70</a>, 1, 2.12%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="65.54.188.86" target="_new" >65.54.188.86</a>, 1, 2.12%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="66.194.6.73" target="_new" >66.194.6.73</a>, 1, 2.12%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="218.5.30.101" target="_new" >218.5.30.101</a>, 1, 2.12%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="4.252.17.218" target="_new" >4.252.17.218</a>, 1, 2.12%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="209.150.217.114" target="_new" >209.150.217.114</a>, 1, 2.12%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="205.153.104.12" target="_new" >205.153.104.12</a>, 1, 2.12%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="4.159.125.48" target="_new" >4.159.125.48</a>, 1, 2.12%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="192.159.32.222" target="_new" >192.159.32.222</a>, 1, 2.12%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, <a href="66.194.6.81" target="_new" >66.194.6.81</a>, 1, 2.12%
+<nobr><img name="legend16" src="../../images/16.gif" align=top> 16.</nobr>, <a href="66.194.6.71" target="_new" >66.194.6.71</a>, 1, 2.12%
+<nobr><img name="legend17" src="../../images/1.gif" align=top> 17.</nobr>, <a href="70.92.18.177" target="_new" >70.92.18.177</a>, 1, 2.12%
+<nobr><img name="legend18" src="../../images/2.gif" align=top> 18.</nobr>, <a href="68.142.249.101" target="_new" >68.142.249.101</a>, 1, 2.12%
+<nobr><img name="legend19" src="../../images/3.gif" align=top> 19.</nobr>, <a href="66.194.6.75" target="_new" >66.194.6.75</a>, 1, 2.12%
+<nobr><img name="legend20" src="../../images/4.gif" align=top> 20.</nobr>, <a href="12.154.93.2" target="_new" >12.154.93.2</a>, 1, 2.12%
+&nbsp;, <B>Subtotal</B>, 27, 57.44%
+&nbsp;, <B>Other</B>, 20, 42.55%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (207.108.87.59,100;12.40.178.133,55;64.122.86.28,36;192.159.32.222,35;209.150.217.114,35;24.123.118.2,34;66.243.17.161,33;63.84.29.5,33;207.91.218.50,33;205.153.104.12,33;4.159.125.48,32;70.92.18.177,32;4.252.17.218,30;69.23.246.71,26;24.223.218.243,18;4.159.35.31,18;70.94.231.229,17;12.154.93.2,13;12.154.92.2,10;207.78.21.15,10;)
+	TitleTop.setText(Most Active Organizations by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="24" BoldFaceHeader="1" Table="47 - Most Active Organization" Title="Most Active Organizations by Hits " >
+&nbsp;, Organizations, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <a href="207.108.87.59" target="_new" >207.108.87.59</a>, 100, 15.03%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="12.40.178.133" target="_new" >12.40.178.133</a>, 55, 8.27%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="64.122.86.28" target="_new" >64.122.86.28</a>, 36, 5.41%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="192.159.32.222" target="_new" >192.159.32.222</a>, 35, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="209.150.217.114" target="_new" >209.150.217.114</a>, 35, 5.26%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="24.123.118.2" target="_new" >24.123.118.2</a>, 34, 5.11%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, <a href="66.243.17.161" target="_new" >66.243.17.161</a>, 33, 4.96%
+<nobr><img name="legend8" src="../../images/8.gif" align=top> 8.</nobr>, <a href="63.84.29.5" target="_new" >63.84.29.5</a>, 33, 4.96%
+<nobr><img name="legend9" src="../../images/9.gif" align=top> 9.</nobr>, <a href="207.91.218.50" target="_new" >207.91.218.50</a>, 33, 4.96%
+<nobr><img name="legend10" src="../../images/10.gif" align=top> 10.</nobr>, <a href="205.153.104.12" target="_new" >205.153.104.12</a>, 33, 4.96%
+<nobr><img name="legend11" src="../../images/11.gif" align=top> 11.</nobr>, <a href="4.159.125.48" target="_new" >4.159.125.48</a>, 32, 4.81%
+<nobr><img name="legend12" src="../../images/12.gif" align=top> 12.</nobr>, <a href="70.92.18.177" target="_new" >70.92.18.177</a>, 32, 4.81%
+<nobr><img name="legend13" src="../../images/13.gif" align=top> 13.</nobr>, <a href="4.252.17.218" target="_new" >4.252.17.218</a>, 30, 4.51%
+<nobr><img name="legend14" src="../../images/14.gif" align=top> 14.</nobr>, <a href="69.23.246.71" target="_new" >69.23.246.71</a>, 26, 3.9%
+<nobr><img name="legend15" src="../../images/15.gif" align=top> 15.</nobr>, <a href="24.223.218.243" target="_new" >24.223.218.243</a>, 18, 2.7%
+<nobr><img name="legend16" src="../../images/16.gif" align=top> 16.</nobr>, <a href="4.159.35.31" target="_new" >4.159.35.31</a>, 18, 2.7%
+<nobr><img name="legend17" src="../../images/1.gif" align=top> 17.</nobr>, <a href="70.94.231.229" target="_new" >70.94.231.229</a>, 17, 2.55%
+<nobr><img name="legend18" src="../../images/2.gif" align=top> 18.</nobr>, <a href="12.154.93.2" target="_new" >12.154.93.2</a>, 13, 1.95%
+<nobr><img name="legend19" src="../../images/3.gif" align=top> 19.</nobr>, <a href="12.154.92.2" target="_new" >12.154.92.2</a>, 10, 1.5%
+<nobr><img name="legend20" src="../../images/4.gif" align=top> 20.</nobr>, <a href="207.78.21.15" target="_new" >207.78.21.15</a>, 10, 1.5%
+&nbsp;, <B>Subtotal</B>, 633, 95.18%
+&nbsp;, <B>Other</B>, 32, 4.81%
+&nbsp;, <B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="12" BoldFaceHeader="0" Table="48 - Summary of Activity for " Title="Summary of Activity for Report Period " >
+<b>Average Number of <B>Visitors</B> per day on Weekdays</b>, 7
+<b>Average Number of <B>Hits</B> per day on Weekdays</b>, 123
+<b>Average Number of <B>Visitors</B> for the entire Weekend</b>, 10
+<b>Average Number of <B>Hits</B> for the entire Weekend</b>, 48
+<b>Most Active Day of the Week</b>, Wed
+<b>Least Active Day of the Week</b>, Sat
+<b>Most Active Day Ever</b>, September 07 2005
+<b>Number of Hits on Most Active Day</b>, 189
+<b>Least Active Day Ever</b>, September 10 2005
+<b>Number of Hits on Least Active Day</b>, 9
+<B>Most Active Hour of the Day</B>, 14:00-14:59
+<B>Least Active Hour of the Day</B>, 05:00-05:59
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(0,1,2,3,4,5,6,7,8,9,10,11,12,)
+	Graph.Series    (0,2;1,28;2,10;3,4;4,1;5,2;6,0;7,0;8,0;9,0;10,0;11,0;12,0;)
+	TitleTop.setText(Visits by Number of Pages Viewed)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="15" BoldFaceHeader="1" Table="49 - Visits by Number of Page" Title="Visits by Number of Pages Viewed " >
+Number of Pages Viewed, Visits, %
+0 Pages, 2, 4.25%
+1 Page, 28, 59.57%
+2 Pages, 10, 21.27%
+3 Pages, 4, 8.51%
+4 Pages, 1, 2.12%
+5 Pages, 2, 4.25%
+6 Pages, 0, 0%
+7 Pages, 0, 0%
+8 Pages, 0, 0%
+9 Pages, 0, 0%
+10 Pages, 0, 0%
+11 Pages, 0, 0%
+12 Pages, 0, 0%
+<B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Kbytes Transferred,)
+	Graph.Series    (Sun,83;Mon,188;Tue,314;Wed,327;Thu,169;Fri,370;Sat,156;)
+	TitleTop.setText(Bandwitdh- Kbytes Transferred Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="9" BoldFaceHeader="1" Table="50 - Bandwitdh- Kbytes Transf" Title="Bandwitdh- Kbytes Transferred Over Time " >
+Time Interval, Kbytes Transferred, %
+Sun, 83, 5.14%
+Mon, 188, 11.68%
+Tue, 314, 19.53%
+Wed, 327, 20.35%
+Thu, 169, 10.49%
+Fri, 370, 23.06%
+Sat, 156, 9.71%
+<B>Total</B>, 1604, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visits,)
+	Graph.Series    (Sun,6;Mon,8;Tue,8;Wed,7;Thu,7;Fri,7;Sat,4;)
+	TitleTop.setText(Visits by Day of the Week)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="11" BoldFaceHeader="1" Table="51 - Visits by Day of the Wee" Title="Visits by Day of the Week " >
+Day, Visits, %
+Sun, 6, 12.76%
+Mon, 8, 17.02%
+Tue, 8, 17.02%
+Wed, 7, 14.89%
+Thu, 7, 14.89%
+Fri, 7, 14.89%
+Sat, 4, 8.51%
+Total Weekend, 10, 21.27%
+Total Weekdays, 37, 78.72%
+<B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Hits,)
+	Graph.Series    (Sun,39;Mon,88;Tue,137;Wed,189;Thu,70;Fri,133;Sat,9;)
+	TitleTop.setText(Hits by Day of the Week)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="11" BoldFaceHeader="1" Table="52 - Hits by Day of the Week " Title="Hits by Day of the Week " >
+Day, Hits, %
+Sun, 39, 5.86%
+Mon, 88, 13.23%
+Tue, 137, 20.6%
+Wed, 189, 28.42%
+Thu, 70, 10.52%
+Fri, 133, 20%
+Sat, 9, 1.35%
+Total Weekend, 48, 7.21%
+Total Weekdays, 617, 92.78%
+<B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Visits,)
+	Graph.Series    (00:00,4;01:00,3;02:00,2;03:00,3;04:00,1;05:00,0;06:00,0;07:00,1;08:00,0;09:00,0;10:00,4;11:00,3;12:00,0;13:00,2;14:00,3;15:00,8;16:00,2;17:00,1;18:00,2;19:00,1;20:00,2;21:00,2;22:00,2;23:00,1;)
+	TitleTop.setText(Visits by Hour of the Day)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="28" BoldFaceHeader="1" Table="53 - Visits by Hour of the Da" Title="Visits by Hour of the Day " >
+Hour, Visits, %
+00:00, 4, 8.51%
+01:00, 3, 6.38%
+02:00, 2, 4.25%
+03:00, 3, 6.38%
+04:00, 1, 2.12%
+05:00, 0, 0%
+06:00, 0, 0%
+07:00, 1, 2.12%
+08:00, 0, 0%
+09:00, 0, 0%
+10:00, 4, 8.51%
+11:00, 3, 6.38%
+12:00, 0, 0%
+13:00, 2, 4.25%
+14:00, 3, 6.38%
+15:00, 8, 17.02%
+16:00, 2, 4.25%
+17:00, 1, 2.12%
+18:00, 2, 4.25%
+19:00, 1, 2.12%
+20:00, 2, 4.25%
+21:00, 2, 4.25%
+22:00, 2, 4.25%
+23:00, 1, 2.12%
+Total Visitors during Work Hours (8:00am-5:00pm), 22, 46.8%
+Total Visitors during After Hours (5:01pm-7:59am), 25, 53.19%
+<B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="2" BoldFaceHeader="0" Table="54 - Summary of Visits by Hou" Title="Summary of Visits by Hour of the Day " >
+<B>Most Active Hour of the Day</B>, 14:00-14:59
+<B>Least Active Hour of the Day</B>, 05:00-05:59
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(Hits,)
+	Graph.Series    (00:00,36;01:00,3;02:00,2;03:00,3;04:00,5;05:00,0;06:00,0;07:00,1;08:00,0;09:00,0;10:00,58;11:00,68;12:00,0;13:00,66;14:00,104;15:00,67;16:00,37;17:00,35;18:00,58;19:00,32;20:00,19;21:00,51;22:00,19;23:00,1;)
+	TitleTop.setText(Hits by Hour of the Day)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="28" BoldFaceHeader="1" Table="55 - Hits by Hour of the Day " Title="Hits by Hour of the Day " >
+Hour, Hits, %
+00:00, 36, 5.41%
+01:00, 3, 0.45%
+02:00, 2, 0.3%
+03:00, 3, 0.45%
+04:00, 5, 0.75%
+05:00, 0, 0%
+06:00, 0, 0%
+07:00, 1, 0.15%
+08:00, 0, 0%
+09:00, 0, 0%
+10:00, 58, 8.72%
+11:00, 68, 10.22%
+12:00, 0, 0%
+13:00, 66, 9.92%
+14:00, 104, 15.63%
+15:00, 67, 10.07%
+16:00, 37, 5.56%
+17:00, 35, 5.26%
+18:00, 58, 8.72%
+19:00, 32, 4.81%
+20:00, 19, 2.85%
+21:00, 51, 7.66%
+22:00, 19, 2.85%
+23:00, 1, 0.15%
+Total Visitors during Work Hours (8:00am-5:00pm), 400, 60.15%
+Total Visitors during After Hours (5:01pm-7:59am), 265, 39.84%
+<B>Total</B>, 665, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="2" BoldFaceHeader="0" Table="56 - Summary of Hits by Hour " Title="Summary of Hits by Hour of the Day " >
+<B>Most Active Hour of the Day</B>, 14:00-14:59
+<B>Least Active Hour of the Day</B>, 05:00-05:59
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (0-1,42;1-2,1;2-3,1;3-4,0;4-5,0;5-6,0;6-7,0;7-8,1;8-9,0;9-10,0;10-11,1;11-12,0;12-13,0;13-14,0;14-15,0;15-16,0;16-17,0;17-18,0;18-19,0;19-20,0;)
+	TitleTop.setText(Visits by Length of Visit)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="24" BoldFaceHeader="1" Table="57 - Visits by Length of Visi" Title="Visits by Length of Visit " >
+Visit Duration (Minutes), Visits, %
+0-1, 42, 89.36%
+1-2, 1, 2.12%
+2-3, 1, 2.12%
+3-4, 0, 0%
+4-5, 0, 0%
+5-6, 0, 0%
+6-7, 0, 0%
+7-8, 1, 2.12%
+8-9, 0, 0%
+9-10, 0, 0%
+10-11, 1, 2.12%
+11-12, 0, 0%
+12-13, 0, 0%
+13-14, 0, 0%
+14-15, 0, 0%
+15-16, 0, 0%
+16-17, 0, 0%
+17-18, 0, 0%
+18-19, 0, 0%
+19-20, 0, 0%
+<B>Subtotal</B>, 46, 97.87%
+<B>Other</B>, 1, 2.12%
+<B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,)
+	Graph.Series    (0-1,59;1-2,3;2-3,5;3-4,0;4-5,0;5-6,0;6-7,0;7-8,3;8-9,0;9-10,0;10-11,2;11-12,0;12-13,0;13-14,0;14-15,0;15-16,0;16-17,0;17-18,0;18-19,0;19-20,0;)
+	TitleTop.setText(Page Views by Length of Visit)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="3" NumRows="24" BoldFaceHeader="1" Table="58 - Page Views by Length of " Title="Page Views by Length of Visit " >
+Visit Duration (Minutes), Views, %
+0-1, 59, 79.72%
+1-2, 3, 4.05%
+2-3, 5, 6.75%
+3-4, 0, 0%
+4-5, 0, 0%
+5-6, 0, 0%
+6-7, 0, 0%
+7-8, 3, 4.05%
+8-9, 0, 0%
+9-10, 0, 0%
+10-11, 2, 2.7%
+11-12, 0, 0%
+12-13, 0, 0%
+13-14, 0, 0%
+14-15, 0, 0%
+15-16, 0, 0%
+16-17, 0, 0%
+17-18, 0, 0%
+18-19, 0, 0%
+19-20, 0, 0%
+<B>Subtotal</B>, 72, 97.29%
+<B>Other</B>, 2, 2.7%
+<B>Total</B>, 74, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="6" BoldFaceHeader="0" Table="59 - Technical Statistics and" Title="Technical Statistics and Analysis " >
+<b>Total Hits</b>, 717
+<b>Successful Hits</b>, <b>665</b>
+<b>Failed Hits</b>, <b>52</b>
+<b>Failed Hits as Percent</b>, <b>7.25%</b>
+<b>Cached Hits</b>, 114
+<b>Cached Hits as Percent</b>, 15.89%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,)
+	Graph.Series    (404 Page or File Not Found,52;)
+	TitleTop.setText(Client Errors)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="60 - Client Errors " Title="Client Errors " >
+&nbsp;, Pages, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, 404 Page or File Not Found, 52, 100%
+&nbsp;, <B>Total</B>, 52, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,)
+	Graph.Series    (/_vti_bin/_vti_aut/fp30reg.dll	[no referrer],36;/robots.txt	[no referrer],10;/favicon.ico	[no referrer],5;/robots.txt	http://www.whois.sc/,1;)
+	TitleTop.setText(Page Not Found Errors)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="6" BoldFaceHeader="1" Table="61 - Page Not Found Errors " Title="Page Not Found Errors " >
+&nbsp;, Pages, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, <b>/_vti_bin/_vti_aut/fp30reg.dll</b><br>(no referrer), 36, 69.23%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <b>/robots.txt</b><br>(no referrer), 10, 19.23%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <b>/favicon.ico</b><br>(no referrer), 5, 9.61%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <b>/robots.txt</b><br><a href="http://www.whois.sc/" target="_new">http://www.whois.sc/</a>, 1, 1.92%
+&nbsp;, <B>Total</B>, 52, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,)
+	Graph.Series    (No Referrer,39;http://www.menziessearch.com/,4;http://www.whois.sc/,1;http://us.f310.mail.yahoo.com/,1;http://menziessearch.com/,1;http://www.google.com/,1;)
+	TitleTop.setText(Top Referring Sites by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="62 - Top Referring Sites by V" Title="Top Referring Sites by Visits " >
+&nbsp;, Site, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, No Referrer, 39, 82.97%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://www.menziessearch.com/" target="_new" >http://www.menziessearch.com/</a>, 4, 8.51%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://www.whois.sc/" target="_new" >http://www.whois.sc/</a>, 1, 2.12%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://us.f310.mail.yahoo.com/" target="_new" >http://us.f310.mail.yahoo.com/</a>, 1, 2.12%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://menziessearch.com/" target="_new" >http://menziessearch.com/</a>, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://www.google.com/" target="_new" >http://www.google.com/</a>, 1, 2.12%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,)
+	Graph.Series    (No Referrer,39;http://www.menziessearch.com/,4;http://www.whois.sc/menziessearch.com,1;http://us.f310.mail.yahoo.com/ym/ShowLetter?MsgId=9875_121136_3201_1998_677_0_1,1;http://menziessearch.com/,1;http://www.google.com/search?hl=en&lr=&safe=off&q=''Donna+Menzies,1;)
+	TitleTop.setText(Top Referring URLs by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="63 - Top Referring URLs by Vi" Title="Top Referring URLs by Visits " >
+&nbsp;, URL, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, No Referrer, 39, 82.97%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, <a href="http://www.menziessearch.com/" target="_new" >http://www.menziessearch.com/</a>, 4, 8.51%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, <a href="http://www.whois.sc/menziessearch.com" target="_new" >http://www.whois.sc/menziessearch.com</a>, 1, 2.12%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, <a href="http://us.f310.mail.yahoo.com/ym/ShowLetter?MsgId=9875_121136_3201_1998_677_0_1" target="_new" >http://us.f310.mail.yahoo.com/ym/ShowLetter?MsgId=9875_121136_3201_1998_677_0_1</a>, 1, 2.12%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, <a href="http://menziessearch.com/" target="_new" >http://menziessearch.com/</a>, 1, 2.12%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, <a href="http://www.google.com/search?hl=en&lr=&safe=off&q="Donna+Menzies" target="_new" >http://www.google.com/search?hl=en&lr=&safe=off&q="Donna+Menzies</a>, 1, 2.12%
+&nbsp;, <B>Total</B>, 47, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(1,)
+	Graph.Series    (Sun,0;Mon,0;Tue,0;Wed,0;Thu,0;Fri,1;Sat,0;)
+	TitleTop.setText(Top Search Engines)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="64 - Top Search Engines " Title="Top Search Engines " >
+&nbsp;, Engines, Referrals, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Google, 1, 100%
+&nbsp;, <B>Total</B>, 1, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="2" BoldFaceHeader="1" Table="65 - Top Search Engines with " Title="Top Search Engines with Search Phrases Detail " >
+Engines, Phrases, Referrals, %
+Google&nbsp;, donna menzies&nbsp;, 1, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="66 - Top Search Engines with " Title="Top Search Engines with Keywords Detail " >
+Engines, Keywords, Referrals, %
+Google&nbsp;, donna&nbsp;, 1, 100%
+&nbsp;, menzies&nbsp;, 1, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(1,)
+	Graph.Series    (Sun,0;Mon,0;Tue,0;Wed,0;Thu,0;Fri,1;Sat,0;)
+	TitleTop.setText(Top Search Phrases)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="67 - Top Search Phrases " Title="Top Search Phrases " >
+&nbsp;, Phrases, Referrals, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, donna menzies, 1, 100%
+&nbsp;, <B>Total</B>, 1, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="2" BoldFaceHeader="1" Table="68 - Top Search Phrases with " Title="Top Search Phrases with Engines Detail " >
+Phrases, Engines, Referrals, %
+donna menzies&nbsp;, Google&nbsp;, 1, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|bar
+	Graph.categories(1,2,)
+	Graph.Series    (Sun,0,0;Mon,0,0;Tue,0,0;Wed,0,0;Thu,0,0;Fri,1,1;Sat,0,0;)
+	TitleTop.setText(Top Search Keywords)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="69 - Top Search Keywords " Title="Top Search Keywords " >
+&nbsp;, Keywords, Referrals, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, donna, 1, 50%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, menzies, 1, 50%
+&nbsp;, <B>Total</B>, 2, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="70 - Top Search Keywords with" Title="Top Search Keywords with Engines Detail " >
+Keywords, Engines, Referrals, %
+donna&nbsp;, Google&nbsp;, 1, 50%
+menzies&nbsp;, Google&nbsp;, 1, 50%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,)
+	Graph.Series    (Microsoft Internet Explorer,20;Netscape,8;msnbot/1.0 [ http://search.msn.com/msnbot.htm],5;ia_archiver,2;SurveyBot/2.3 [Whois Source],1;-,1;Other Netscape Compatible,1;)
+	TitleTop.setText(Top Browsers by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="9" BoldFaceHeader="1" Table="71 - Top Browsers by Visits " Title="Top Browsers by Visits " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Microsoft Internet Explorer, 20, 52.63%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Netscape, 8, 21.05%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, msnbot/1.0 ( http://search.msn.com/msnbot.htm), 5, 13.15%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, ia_archiver, 2, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, SurveyBot/2.3 (Whois Source), 1, 2.63%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, -, 1, 2.63%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, Other Netscape Compatible, 1, 2.63%
+&nbsp;, <B>Total</B>, 38, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,3,0,2,0,0;Mon,2,1,2,1,1;Tue,2,4,0,1,0;Wed,3,3,0,0,0;Thu,5,0,0,0,0;Fri,4,0,0,0,0;Sat,1,0,1,0,0;)
+	TitleTop.setText(Top Browsers by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="72 - Top Browsers by Visits O" Title="Top Browsers by Visits Over Time " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Microsoft Internet Explorer, 20, 52.63%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Netscape, 8, 21.05%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, msnbot/1.0 ( http://search.msn.com/msnbot.htm), 5, 13.15%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, ia_archiver, 2, 5.26%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, SurveyBot/2.3 (Whois Source), 1, 2.63%
+&nbsp;, <B>Subtotal</B>, 36, 94.73%
+&nbsp;, <B>Total</B>, 38, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,6,7,)
+	Graph.Series    (Microsoft Internet Explorer,359;Netscape,259;Other Netscape Compatible,23;msnbot/1.0 [ http://search.msn.com/msnbot.htm],7;ia_archiver,2;SurveyBot/2.3 [Whois Source],1;-,1;)
+	TitleTop.setText(Top Browsers by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="9" BoldFaceHeader="1" Table="73 - Top Browsers by Hits " Title="Top Browsers by Hits " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Microsoft Internet Explorer, 359, 55.06%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Netscape, 259, 39.72%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Other Netscape Compatible, 23, 3.52%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, msnbot/1.0 ( http://search.msn.com/msnbot.htm), 7, 1.07%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, ia_archiver, 2, 0.3%
+<nobr><img name="legend6" src="../../images/6.gif" align=top> 6.</nobr>, SurveyBot/2.3 (Whois Source), 1, 0.15%
+<nobr><img name="legend7" src="../../images/7.gif" align=top> 7.</nobr>, -, 1, 0.15%
+&nbsp;, <B>Total</B>, 652, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,35,0,0,3,0;Mon,33,50,0,2,1;Tue,19,94,22,0,1;Wed,73,115,0,0,0;Thu,68,0,0,0,0;Fri,130,0,1,0,0;Sat,1,0,0,2,0;)
+	TitleTop.setText(Top Browsers by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="8" BoldFaceHeader="1" Table="74 - Top Browsers by Hits Ove" Title="Top Browsers by Hits Over Time " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Microsoft Internet Explorer, 359, 55.06%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Netscape, 259, 39.72%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Other Netscape Compatible, 23, 3.52%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, msnbot/1.0 ( http://search.msn.com/msnbot.htm), 7, 1.07%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, ia_archiver, 2, 0.3%
+&nbsp;, <B>Subtotal</B>, 650, 99.69%
+&nbsp;, <B>Total</B>, 652, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,)
+	Graph.Series    (Explorer 6.x,18;Explorer 5.x,2;)
+	TitleTop.setText(Microsoft Explorer Browsers by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="75 - Microsoft Explorer Brows" Title="Microsoft Explorer Browsers by Visits " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Explorer 6.x, 18, 90%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Explorer 5.x, 2, 10%
+&nbsp;, <B>Total</B>, 20, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,)
+	Graph.Series    (Sun,1,2;Mon,2,0;Tue,2,0;Wed,3,0;Thu,5,0;Fri,4,0;Sat,1,0;)
+	TitleTop.setText(Microsoft Explorer Browsers by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="76 - Microsoft Explorer Brows" Title="Microsoft Explorer Browsers by Visits Over Time " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Explorer 6.x, 18, 90%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Explorer 5.x, 2, 10%
+&nbsp;, <B>Total</B>, 20, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,)
+	Graph.Series    (Explorer 6.x,357;Explorer 5.x,2;)
+	TitleTop.setText(Microsoft Explorer Browsers by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="77 - Microsoft Explorer Brows" Title="Microsoft Explorer Browsers by Hits " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Explorer 6.x, 357, 99.44%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Explorer 5.x, 2, 0.55%
+&nbsp;, <B>Total</B>, 359, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,)
+	Graph.Series    (Sun,33,2;Mon,33,0;Tue,19,0;Wed,73,0;Thu,68,0;Fri,130,0;Sat,1,0;)
+	TitleTop.setText(Microsoft Explorer Browsers by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="78 - Microsoft Explorer Brows" Title="Microsoft Explorer Browsers by Hits Over Time " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Explorer 6.x, 357, 99.44%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Explorer 5.x, 2, 0.55%
+&nbsp;, <B>Total</B>, 359, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,)
+	Graph.Series    (Netscape 5.x,8;)
+	TitleTop.setText(Netscape Browsers by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="79 - Netscape Browsers by Vis" Title="Netscape Browsers by Visits " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Netscape 5.x, 8, 100%
+&nbsp;, <B>Total</B>, 8, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,)
+	Graph.Series    (Sun,0;Mon,1;Tue,4;Wed,3;Thu,0;Fri,0;Sat,0;)
+	TitleTop.setText(Netscape Browsers by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="80 - Netscape Browsers by Vis" Title="Netscape Browsers by Visits Over Time " >
+&nbsp;, Browser, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Netscape 5.x, 8, 100%
+&nbsp;, <B>Total</B>, 8, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,)
+	Graph.Series    (Netscape 5.x,259;)
+	TitleTop.setText(Netscape Browsers by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="81 - Netscape Browsers by Hit" Title="Netscape Browsers by Hits " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Netscape 5.x, 259, 100%
+&nbsp;, <B>Total</B>, 259, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,)
+	Graph.Series    (Sun,0;Mon,50;Tue,94;Wed,115;Thu,0;Fri,0;Sat,0;)
+	TitleTop.setText(Netscape Browsers by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="3" BoldFaceHeader="1" Table="82 - Netscape Browsers by Hit" Title="Netscape Browsers by Hits Over Time " >
+&nbsp;, Browser, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Netscape 5.x, 259, 100%
+&nbsp;, <B>Total</B>, 259, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,)
+	Graph.Series    (Mozilla/5.0 [compatible Yahoo! Slurp http://help.yahoo.com/help/us/ysearch/slurp],5;Mozilla/5.0 [compatible Googlebot/2.1  http://www.google.com/bot.html],4;)
+	TitleTop.setText(Top Spiders by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="83 - Top Spiders by Visits " Title="Top Spiders by Visits " >
+&nbsp;, Spider, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp), 5, 55.55%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html), 4, 44.44%
+&nbsp;, <B>Total</B>, 9, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,)
+	Graph.Series    (Sun,1,0;Mon,0,0;Tue,0,1;Wed,1,0;Thu,2,0;Fri,1,1;Sat,0,2;)
+	TitleTop.setText(Top Spiders by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="84 - Top Spiders by Visits Ov" Title="Top Spiders by Visits Over Time " >
+&nbsp;, Spider, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp), 5, 55.55%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html), 4, 44.44%
+&nbsp;, <B>Total</B>, 9, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,)
+	Graph.Series    (Mozilla/5.0 [compatible Googlebot/2.1  http://www.google.com/bot.html],8;Mozilla/5.0 [compatible Yahoo! Slurp http://help.yahoo.com/help/us/ysearch/slurp],5;)
+	TitleTop.setText(Top Spiders by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="85 - Top Spiders by Hits " Title="Top Spiders by Hits " >
+&nbsp;, Spider, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html), 8, 61.53%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp), 5, 38.46%
+&nbsp;, <B>Total</B>, 13, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,)
+	Graph.Series    (Sun,0,1;Mon,0,0;Tue,1,0;Wed,0,1;Thu,0,2;Fri,1,1;Sat,6,0;)
+	TitleTop.setText(Top Spiders by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="4" BoldFaceHeader="1" Table="86 - Top Spiders by Hits Over" Title="Top Spiders by Hits Over Time " >
+&nbsp;, Spider, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html), 8, 61.53%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp), 5, 38.46%
+&nbsp;, <B>Total</B>, 13, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Windows 2000,19;Others,10;Macintosh PowerPC,7;Linux,1;Windows 98,1;)
+	TitleTop.setText(Top Platforms by Visits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="87 - Top Platforms by Visits " Title="Top Platforms by Visits " >
+&nbsp;, Platform, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Windows 2000, 19, 50%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Others, 10, 26.31%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Macintosh PowerPC, 7, 18.42%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, Linux, 1, 2.63%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, Windows 98, 1, 2.63%
+&nbsp;, <B>Total</B>, 38, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,1,3,0,0,1;Mon,2,5,1,0,0;Tue,3,1,3,0,0;Wed,3,0,3,0,0;Thu,5,0,0,0,0;Fri,4,0,0,1,0;Sat,1,1,0,0,0;)
+	TitleTop.setText(Top Platforms by Visits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="88 - Top Platforms by Visits " Title="Top Platforms by Visits Over Time " >
+&nbsp;, Platform, Visits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Windows 2000, 19, 50%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Others, 10, 26.31%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Macintosh PowerPC, 7, 18.42%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, Linux, 1, 2.63%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, Windows 98, 1, 2.63%
+&nbsp;, <B>Total</B>, 38, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = single|bar
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Windows 2000,390;Macintosh PowerPC,226;Others,34;Linux,1;Windows 98,1;)
+	TitleTop.setText(Top Platforms by Hits)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="89 - Top Platforms by Hits " Title="Top Platforms by Hits " >
+&nbsp;, Platform, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Windows 2000, 390, 59.81%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Macintosh PowerPC, 226, 34.66%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Others, 34, 5.21%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, Linux, 1, 0.15%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, Windows 98, 1, 0.15%
+&nbsp;, <B>Total</B>, 652, 100%
+
+</WT_EXCEL_TABLE>
+
+<WT_GRAPH>
+	type  = multi|line
+	Graph.categories(1,2,3,4,5,)
+	Graph.Series    (Sun,33,0,4,0,1;Mon,33,50,5,0,0;Tue,52,61,23,0,0;Wed,73,115,0,0,0;Thu,68,0,0,0,0;Fri,130,0,0,1,0;Sat,1,0,2,0,0;)
+	TitleTop.setText(Top Platforms by Hits Over Time)
+	TitleX.setText  ()
+	TitleY.setText  ()	
+</WT_GRAPH>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="7" BoldFaceHeader="1" Table="90 - Top Platforms by Hits Ov" Title="Top Platforms by Hits Over Time " >
+&nbsp;, Platform, Hits, %
+<nobr><img name="legend1" src="../../images/1.gif" align=top> 1.</nobr>, Windows 2000, 390, 59.81%
+<nobr><img name="legend2" src="../../images/2.gif" align=top> 2.</nobr>, Macintosh PowerPC, 226, 34.66%
+<nobr><img name="legend3" src="../../images/3.gif" align=top> 3.</nobr>, Others, 34, 5.21%
+<nobr><img name="legend4" src="../../images/4.gif" align=top> 4.</nobr>, Linux, 1, 0.15%
+<nobr><img name="legend5" src="../../images/5.gif" align=top> 5.</nobr>, Windows 98, 1, 0.15%
+&nbsp;, <B>Total</B>, 652, 100%
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="4" NumRows="59" BoldFaceHeader="1" Table="91 - Debug Statistics " Title="Debug Statistics " >
+Table, Count, Text, Data
+TopWeekdays, 7, 28, 1204
+TopHours, 24, 288, 3288
+TopExtensions, 6, 26, 836
+TopSuffixes, 0, 0, 0
+TopCountries, 0, 0, 0
+TopForms, 0, 0, 0
+TopDownloads, 0, 0, 0
+TopDocuments, 14, 599, 1960
+TopDirectory, 5, 147, 804
+TopCompanies, 40, 544, 5340
+TopUsers, 0, 0, 0
+TopReferers, 6, 251, 808
+TopBrowsers, 7, 153, 1008
+TopPlatforms, 5, 55, 748
+TopCities, 0, 0, 0
+TopStates, 0, 0, 0
+TopVisitors, 1, 8, 172
+TopServerErrors, 0, 0, 0
+TopClientErrors, 1, 27, 144
+TopFormErrors, 0, 0, 0
+GeneralStats, 0, 0, 0
+TechnicalStats, 0, 0, 0
+ActivityStats, 0, 0, 0
+TopReferingSites, 6, 143, 808
+TopBottom, 0, 0, 0
+TopEntryPage, 11, 464, 1388
+TopExit, 11, 463, 1500
+TopSinglePage, 8, 329, 1040
+ObsoleteTopPaths, 0, 0, 0
+TopAds, 0, 0, 0
+TopAdClicks, 0, 0, 0
+TopAdViews, 0, 0, 0
+TopSpiders, 2, 157, 344
+TopNetscape, 1, 13, 172
+TopExplorer, 2, 26, 344
+TopUploads, 0, 0, 0
+TopAuthUsers, 0, 0, 0
+TopBandwidth, 1, 1, 172
+TopPaths, 1 / 20, 16, 116 / 80
+TopSearchKeywords, 2, 14, 232
+TopSearchEngines, 1, 7, 116
+Top404Errors, 4, 131, 548
+TopSearchKeyPhrases, 1, 14, 116
+TopSearchPhraseEngines, 1, 7, 116
+TopContentGroups, 0, 0, 0
+VisitorTracking, 40, 544, 5340
+NewVsReturningUsers, 1, 22, 144
+TopEntryRequest, 15, 617, 1796
+TopQueries, 0, 0, 0
+TopReversePaths, 0, 0, 0
+TopVisitsByDuration, 61, 346, 7076
+TopViewsPerVisit, 101, 295, 11716
+UserSessionStats, 8, 175, 1044
+TopGeoRegions, 1, 20, 172
+VisitorsPerVisitCount, 10, 98, 1160
+VisitorGeneralStats, 3, 78, 348
+<B>Total</B>, <B>507 / 90</B>, <B>9686 / 3581</B>, <B>67636 / 928</B>
+<B>Time to Process Report</B>, &nbsp;, &nbsp;, 00:00:29
+
+</WT_EXCEL_TABLE>
+
+
+<WT_EXCEL_TABLE NumColumns="2" NumRows="37" BoldFaceHeader="0" Table="92 - Glossary " Title="Glossary " >
+<B>Ad</B>, A graphic or a banner on a Web page that when clicked on takes the visitor to another site.
+<B>Ad Clicks</B>, A click on an advertisement on a Web site which takes a visitor to another site it is referred to as an ad click.
+<B>Ad Views</B>, A Web page that presents an ad.  Once the visitor has viewed an ad he/she can click on it (see Ad Click).  There may be more than one ad on an ad view.
+<B>Authentication</B>, Technique that limits access to Internet or intranet resources to those visitors who identify themselves by entering a username and password.
+<B>Bandwidth</B>, Measure (in kilobytes of data transferred) of the traffic on the site.
+<B>Browser</B>, A program used to locate and view HTML documents (Netscape Mosaic Microsoft Explorer for example.)
+<B>Click through rate</B>, Percentage of visitors who click on a viewed advertisement.  This is a good indication of the effectiveness of this ad.
+<B>Client</B>, The browser (see above) used by a visitor to a Web site.
+<B>Client Errors</B>, An error occurring due to an invalid request by the visitor's browser. Client errors are in the 400-range. See "Return Code" definition.
+<B>Company Database</B>, The database installed and used by WebTrends to look up the company name city state and country corresponding to a specific domain name.
+<B>Cookies</B>, Persistent Client-State HTTP Cookies are files containing information about web site visitors (e.g. user name and preferences).  This information is provided by the visitor during the first visit to a web server.  The server records this information in a text file and stores this file on the visitor's hard drive.  At the start of subsequent visits the server looks for the cookie and configures itself based on the information provided.
+<B>Domain Name</B>, The text name corresponding to the numeric IP address of a computer on the Internet (i.e. www.webtrends.com).
+<B>Domain Name Lookup</B>, The process of converting a numeric IP address into a text name (for example 204.245.240.194 is converted to www.webtrends.com).
+<B>FTP</B>, File Transfer Protocol is a standard method of sending files between computers over the Internet.
+<B>Filters</B>, A means of narrowing the scope of a report or view by specifying ranges or types of data to include in or exclude.
+<B>Forms</B>, An HTML page which passes variables back to the server. These pages are used to gather information from visitors.  Also referred to as scripts.
+<B>GIF</B>, Graphics Interchange Format is an image file format commonly used in HTML documents.
+<B>HTML</B>, Hyper Text Markup Language is used to write documents for the World Wide Web to specify hypertext links between related objects and documents.
+<B>HTTP</B>, Hyper Text Transfer Protocol is a standard method of transferring data between a Web <B>server</B> and a Web <B>browser</B>.
+<B>Hit</B>, An action on the Web site such as when a visitor views a page or downloads a file.
+<B>Home Page</B>, The main page of a Web site. The home page provides visitors with an overview and links to the rest of the site. It often contains or links to a Table of contents for the site.
+<B>Home Page URL</B>, The local path or Internet URL to the default page of the Web site for which WebTrends reports will be generated.
+<B>IP Address</B>, Internet Protocol address identifying a computer connected to the Internet.
+<B>JPEG</B>, Joint Photographic Expert Group - Compressed graphic format common on the Internet.
+<B>Log File</B>, A file created by a Web or proxy server which contains all of the access information regarding the activity on that server.
+<B>Page Views</B>, Also called Page Impressions. Hits to HTML pages only (non-HTML documents are not counted).
+<B>Platform</B>, The operating system (i.e. Windows 95 Windows NT etc.) used by a visitor to the site.
+<B>Protocol</B>, An established method of exchanging data over the Internet.
+<B>Referrer</B>, URL of an HTML page that refers to the site.
+<B>Return Code</B>, The return status of the request which specifies whether the transfer was successful and why.<DL><DT><B>Possible "Success" codes are:</B><DD><B>200 = Success</B>: OK<DD>
+<B>201 = Success</B>: Created<DD>
+<B>202 = Success</B>: Accepted<DD>
+<B>203 = Success</B>: Partial Information<DD>
+<B>204 = Success</B>: No Response<DD>
+<B>205 = Success</B>: Cached<DD>
+<B>206 = Success</B>: Partial Content<DD>
+<B>300 = Success</B>: Redirected<DD>
+<B>301 = Success</B>: Moved<DD>
+<B>302 = Success</B>: Found<DD>
+<B>303 = Success</B>: New Method<DD>
+<B>304 = Success</B>: Not Modified<DD>
+<B>305 = Success </B>: Use Proxy<DT>
+
+<B>Possible "Failed" codes are</B>:<DD>
+<B>400 = Failed</B>: Bad Request<DD>
+<B>401 = Failed</B>: Unauthorized Access<DD>
+<B>402 = Failed</B>: Payment Required<DD>
+<B>403 = Failed</B>: Forbidden Access<DD>
+<B>404 = Failed</B>: Page or File Not Found<DD>
+<B>405 = Failed</B>: Method Not Allowed<DD>
+<B>406 = Failed</B>: Not Acceptable<DD>
+<B>407 = Failed</B>: Proxy Authentication Required<DD>
+<B>408 = Failed</B>: Request Timeout<DD>
+<B>409 = Failed</B>: Conflict<DD>
+<B>410 = Failed</B>: Gone<DD>
+<B>411 = Failed</B>: Length Required<DD>
+<B>412 = Failed</B>: Precondition Failed<DD>
+<B>413 = Failed</B>: Request Entity Too Large<DD>
+<B>414 = Failed</B>: Request-URI Too Large<DD>
+<B>415 = Failed</B>: Unsupported Media Type<DD>
+<B>500 = Failed</B>: Internal Error<DD>
+<B>501 = Failed</B>: Not Implemented<DD>
+<B>502 = Failed</B>: Temporarily Overloaded<DD>
+<B>503 = Failed</B>: Service Unavailable<DD>
+<B>504 = Failed</B>: Gateway Timeout<DD>
+<B>505 = Failed</B>: HTTP Version Not Supported</DL>
+<B>Server</B>, A computer that hosts information available to anyone accessing the Internet.
+<B>Server Error</B>, An error occurring at the server.  Web server errors have codes in the 500 range.
+<B>Spiders</B>, An automated program which searches the internet.
+<B>Suffix (Domain Name)</B>, The three digit suffix of a domain can be used to identify the type of organization.<DL><DT>Possible "Suffixes" are:<DD>.com = Commercial<DD>.edu = Educational<DD>.int = International<DD>.gov = Government<DD>.mil = Military<DD>.net = Network<DD>.org = Organization</DL>
+<B>URL</B>, Uniform Resource Locator is a means of identifying an exact location on the Internet. For example http://www.webtrends.com/html/info/default.htm is the URL which defines the use of HTTP to access the Web page Default.htm in the /html/info/ directory on the WebTrends Corporation Web site). As the previous example shows a URL is comprised of four parts: Protocol Type (HTTP) Machine Name (webtrends.com) Directory Path (/html/info/) and File Name (default.htm).
+<B>User Agent</B>, Fields in an extended Web server log file identifying the browser and platform used by a visitor.
+<B>Visit</B>, Commonly called Visit.  All activity for one visitor of a Web site.  By default a visit is terminated when a visitor is inactive for more than 30 minutes.
+
+</WT_EXCEL_TABLE>
+
+
+</WT_EXCEL_META_FILE>

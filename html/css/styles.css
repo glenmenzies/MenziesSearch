@@ -1,0 +1,40 @@
+
+/* for putting a border around What's Happening in Twin Cities */
+.boxed {
+  border: 3px solid black ;
+}
+
+/* fixes writing a box around link that called a modal */
+.modal-open .modal,.btn:focus, a:focus{
+    outline:transparent!important
+}
+
+<!-- Position text next to Donna's picture -->
+h9{
+  overflow: auto;    
+}
+
+h9 span{
+
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+h9 img{
+   float: left;        
+}​
+
+/* tries to keep buttons from stacking on top of each other */
+.holdsButtons{
+
+	width: 640px;
+	float: right;
+	overflow: hidden;
+}
+
+/* replacement for .navbar-text */
+.navbar-glen {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  }
